@@ -1,805 +1,803 @@
 
-
-
 #features-container{
 
-    padding: 20px 100px;
+    padding: 0px 80px;
     
     }
     
     #features-paragraph{
     
     text-align: center;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 900px;
+    margin: 0px 400px;
+    font-size: 30px;
+    font-family: 'old standard tt';
     
     }
     
     #features-heading{
     
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'old standard tt';
     
     }
     
     #features-details{
     
     display: flex;
-    gap: 200px;
-    padding-top: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    gap: 40px;
+    padding-top: 0px;
+    padding-left: 200px;
+    font-family: 'old standard tt';
     
     }
     
     #QnA-heading{
     
         text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     color: #644777;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'old standard tt';
     
     }
     
     #QnA-paragraph{
     
-    font-size: 25px;
-    margin-bottom: 90px;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 640px;
+    font-size: 32px;
+    margin-bottom: 120px;
+    font-family: 'old standard tt';
     
     }
     
     #practicals-heading{
     
         text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     color: #644777;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'old standard tt';
     
     }
     
     #practicals-paragraph{
     
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 580px;
+    font-size: 32px;
+    font-family: 'old standard tt';
     
     }
+
+    .practicals-image{
     
+        width: 600px;
+        height: 370px;
+        border-radius: 20px;
+        
+    }
+
+
+    .QnA-image{
     
+        width: 700px;
+        height: 250px;
+        border-radius: 20px;
+        
+    }
+
+
+
     
-    @media only screen and (min-width: 250px) and (max-width: 290px){
-    
+    @media only screen and (min-width:280px) and (max-width:359px){
+              
         #features-container{
-    
-            padding: 0px 5px;
+
+            padding: 0px;
             
             }
             
             #features-paragraph{
             
-            padding: 0px 10px;
             font-size: 15px;
-            font-family: Arial, Helvetica, sans-serif;
+            width: 320px;
+            margin: 0px 5px;
+            text-align: left;
             
             }
-    
-            .features{
-    
-                width: 290px;
-                height: 100px;
-                margin-left: 10px;
-    
-            }
-    
+            
             #features-heading{
-    
-                font-size: 25px;
-                padding-left: 10px;
-                font-family: Arial, Helvetica, sans-serif;
+            
+            font-size: 30px;
+            padding: 0px 110px;
+
+            
+            }
+
+            #features-details{
+
+                flex-direction: column;
+                gap: 0px;
+                padding: 0px 5px;
                 
                 }
-    
-                #features-details{
-                
-                    flex-direction: column;
-                    gap: 0px;
-                    padding-top: 5px;
-                    font-family: Arial, Helvetica, sans-serif;
-                    }
-    
-                    #QnA-heading{
-    
-                        text-align: center;
-                    font-size: 20px;
-                    color: #644777;
-                    font-family: Arial, Helvetica, sans-serif;
-                    
-                    }
-                    
-                    #QnA-paragraph{
-                    
-                    font-size: 15px;
-                    padding:0px 5px 0px 10px;
-                    margin-bottom: 5px;
-                    font-family: Arial, Helvetica, sans-serif;
-                    
-                    }
-        
-                    #practicals-heading{
-        
-                    text-align: center;
-                    font-size: 20px;
-                    color: #644777;
-                    font-family: Arial, Helvetica, sans-serif;
-                    
-                    }
-                    
-                    #practicals-paragraph{
-                    
-                    padding: 0px 5px 0px 10px;
-                    font-size: 15px;
-                    font-family: Arial, Helvetica, sans-serif;
-                    
-                    }
-    
-    
-                    .practicals-image{
-    
-                        width: 340px;
-                        height: 160px;
-                        border-radius: 20px;
-                        justify-content: center;
-                        /* padding-left: 50px; */
-                        
-                    }
-        
-                    .QnA-image{
-        
-                        width: 350px;
-                        height: 100px;
-                        border-radius: 20px;
-                        
-                    }
-       
-    }
-    
-    
-    @media only screen and (min-width: 300px) and (max-width: 390px){
-    
-        #features-container{
-    
-            padding: 0px 5px;
-            
-            }
-            
-            #features-paragraph{
-            
-            padding: 0px 10px;
-            font-size: 13px;
-            font-family: Arial, Helvetica, sans-serif;
-            
-            }
-    
-            .features{
-    
-                width: 310px;
-                height: 100px;
-                margin-left: 20px;
-    
-            }
-    
-            #features-heading{
+
+                #QnA-heading{
     
                 font-size: 20px;
-                padding-left: 10px;
-                font-family: Arial, Helvetica, sans-serif;
+                padding-left: 72px;
                 
                 }
-    
-                #features-details{
                 
-                    flex-direction: column;
-                    gap: 0px;
-                    padding-top: 5px;
-                    font-family: Arial, Helvetica, sans-serif;
-                    }
-    
-                    #QnA-heading{
-    
-                        text-align: center;
-                    font-size: 17px;
-                    color: #644777;
-                    font-family: Arial, Helvetica, sans-serif;
-                    
-                    }
-                    
-                    #QnA-paragraph{
-                    
-                    font-size: 13px;
-                    padding: 0px 30px;
-                    margin-bottom: 5px;
-                    font-family: Arial, Helvetica, sans-serif;
-                    
-                    }
-        
-                    #practicals-heading{
-        
-                    text-align: center;
-                    font-size: 17px;
-                    color: #644777;
-                    font-family: Arial, Helvetica, sans-serif;
-                    
-                    }
-                    
-                    #practicals-paragraph{
-                    
-                    padding: 0px 30px;
-                    font-size: 13px;
-                    font-family: Arial, Helvetica, sans-serif;
-                    
-                    }
-    
-                    .practicals-image{
-    
-                        width: 350px;
-                        height: 150px;
-                        border-radius: 20px;
-                        justify-content: center;
-                        /* padding-left: 50px; */
-                        
-                    }
-        
-                    .QnA-image{
-        
-                        width: 300px;
-                        height: 100px;
-                        padding-left: 20px;
-                        border-radius: 20px;
-                        
-                    }
-       
-    }
-    
-    
-    @media only screen and (min-width: 400px) and (max-width: 450px){
-    
-        #features-container{
-    
-            padding: 7px 5px;
-            
-            }
-            
-            #features-paragraph{
-            
-            padding: 0px 10px;
-            font-size: 18px;
-            font-family: Arial, Helvetica, sans-serif;
-            
-            }
-    
-            .features{
-    
-                width: 340px;
-                height: 130px;
-                margin-left: 30px;
-    
-            }
-    
-            #features-heading{
-    
-                font-size: 35px;
-                padding-left: 10px;
-                font-family: Arial, Helvetica, sans-serif;
+                #QnA-paragraph{
+
+                width: 320px;
+                /* text-align: center; */
+                font-size: 15px;
+                margin: 0px;
                 
                 }
-    
-                #features-details{
                 
-                    flex-direction: column;
-                    gap: 0px;
-                    padding-top: 10px;
+                #practicals-heading{
+                
+                font-size: 20px;
+                padding-left: 72px;
+                
+                }
+               
+                .QnA-image{
+    
+                    width: 300px;
+                    height: 110px;
                     padding-left: 20px;
-                    font-family: Arial, Helvetica, sans-serif;
-                    }
-    
-                    #QnA-heading{
-    
-                        text-align: center;
-                    font-size: 25px;
-                    color: #644777;
-                    font-family: Arial, Helvetica, sans-serif;
+                    
+                }
+
+                #practicals-paragraph{
+
+                    width: 320px;
+                    font-size: 15px;
+                    /* text-align: center; */
                     
                     }
-                    
-                    #QnA-paragraph{
-                    
-                    font-size: 17px;
-                    padding: 0px 50px;
-                    margin-bottom: 10px;
-                    font-family: Arial, Helvetica, sans-serif;
-                    
-                    }
-        
-                    #practicals-heading{
-        
-                    text-align: center;
-                    font-size: 25px;
-                    color: #644777;
-                    font-family: Arial, Helvetica, sans-serif;
-                    
-                    }
-                    
-                    #practicals-paragraph{
-                    
-                    padding: 0px 50px;
-                    font-size: 17px;
-                    font-family: Arial, Helvetica, sans-serif;
-                    
-                    }
-    
+                
                     .practicals-image{
-    
-                        width: 370px;
-                        height: 160px;
-                        border-radius: 20px;
-                        justify-content: center;
-                        /* padding-left: 50px; */
+                    
+                        width: 300px;
+                        height: 180px;
+                        padding-left: 10px;
                         
                     }
-        
-                    .QnA-image{
-        
-                        width: 350px;
-                        height: 100px;
-                        border-radius: 20px;
-                        
-                    }
-       
+
+
     }
-    
-    @media only screen and (min-width: 500px) and (max-width: 550px){
-    
+
+
+
+    @media only screen and (min-width:360px) and (max-width:390px){
+              
         #features-container{
-    
-            padding: 0px 5px;
+
+            padding: 0px;
             
             }
             
             #features-paragraph{
             
-            padding: 0px 10px;
             font-size: 15px;
-            font-family: Arial, Helvetica, sans-serif;
+            width: 320px;
+            margin: 0px 20px;
+            text-align: start;
             
             }
-    
+            
             #features-heading{
-    
-                font-size: 35px;
-                padding-left: 10px;
-                font-family: Arial, Helvetica, sans-serif;
+            
+            font-size: 25px;
+            padding: 0px 10px;
+            
+            }
+
+            #features-details{
+
+                flex-direction: column;
+                gap: 0px;
+                padding: 0px 20px;
                 
                 }
+
+                #QnA-heading{
     
-                #features-details{
+                font-size: 20px;
+                padding: 0px 10px;
                 
-                    flex-direction: column;
-                    gap: 0px;
-                    padding-top: 10px;
-                    font-family: Arial, Helvetica, sans-serif;
-                    }
+                }
+                
+                #QnA-paragraph{
+
+                width: 330px;
+                /* text-align: center; */
+                font-size: 15px;
+                margin: 0px;
+                
+                }
+                
+                #practicals-heading{
+                
+                font-size: 20px;
+                padding: 0px 10px;
+                
+                }
+               
+                .QnA-image{
     
-                    #QnA-heading{
-    
-                        text-align: center;
-                    font-size: 20px;
-                    color: #644777;
-                    font-family: Arial, Helvetica, sans-serif;
+                    width: 300px;
+                    height: 110px;
+                    padding-left: 20px;
                     
-                    }
-                    
-                    #QnA-paragraph{
-                    
+                }
+
+                #practicals-paragraph{
+
+                    width: 330px;
                     font-size: 15px;
-                    padding: 0px 50px;
-                    margin-bottom: 10px;
-                    font-family: Arial, Helvetica, sans-serif;
+                    /* text-align: center; */
                     
                     }
-        
-                    #practicals-heading{
-        
-                        text-align: center;
-                    font-size: 20px;
-                    color: #644777;
-                    font-family: Arial, Helvetica, sans-serif;
-                    
-                    }
-                    
-                    #practicals-paragraph{
-                    
-                    padding: 0px 50px;
-                    font-size: 15px;
-                    font-family: Arial, Helvetica, sans-serif;
-                    
-                    }
-    
-    
+                
                     .practicals-image{
+                    
+                        width: 300px;
+                        height: 180px;
+                        padding-left: 10px;
+                        
+                    }
+
+    }
+
+
+    @media only screen and (min-width:400px) and (max-width:450px){
+              
+        #features-container{
+
+            padding: 0px;
+            
+            }
+            
+            #features-paragraph{
+            
+            font-size: 17px;
+            width: 350px;
+            margin: 0px 30px;
+            text-align: left;
+            
+            }
+            
+            #features-heading{
+            
+            font-size: 40px;
+            
+            }
+
+            #features-details{
+
+                flex-direction: column;
+                gap: 0px;
+                padding: 0px 40px;
+                
+                }
+
+                #QnA-heading{
     
-                        width: 510px;
-                        height: 160px;
-                        border-radius: 20px;
+                font-size: 20px;
+                
+                }
+                
+                #QnA-paragraph{
+
+                width: 330px;
+                /* text-align: center; */
+                font-size: 17px;
+                margin: 0px;
+                
+                }
+                
+                #practicals-heading{
+                
+                font-size: 20px;
+                
+                }
+               
+                .QnA-image{
+    
+                    width: 350px;
+                    height: 130px;
+                    padding-left: 0px;
+                    
+                }
+
+                #practicals-paragraph{
+
+                    width: 330px;
+                    font-size: 17px;
+                    /* text-align: center; */
+                    
+                    }
+                
+                    .practicals-image{
+                    
+                        width: 330px;
+                        height: 190px;
+                        
+                    }
+        
+
+
+    }
+
+    @media only screen and (min-width:500px) and (max-width:550px){
+              
+        #features-container{
+
+            padding: 0px;
+            
+            }
+            
+            #features-paragraph{
+            
+            font-size: 15px;
+            width: 450px;
+            margin: 0px 30px;
+            text-align: start;
+            
+            }
+            
+            #features-heading{
+            
+            font-size: 25px;
+            
+            }
+
+            #features-details{
+
+                flex-direction: column;
+                gap: 0px;
+                padding: 0px 30px;
+                
+                }
+
+                #QnA-heading{
+    
+                font-size: 20px;
+                margin: 0px 100px 0px 80px;
+                
+                }
+                
+                #QnA-paragraph{
+
+                width: 450px;
+                /* margin: 0px 30px; */
+                text-align: start;
+                font-size: 15px;
+                margin: 0px;
+                
+                }
+                
+                #practicals-heading{
+                
+                font-size: 20px;
+                margin: 10px 100px 0px 80px;
+                
+                }
+               
+                .QnA-image{
+    
+                    width: 350px;
+                    height: 120px;
+                    padding-left: 30px;
+                    
+                }
+
+                #practicals-paragraph{
+
+                    width: 450px;
+                    /* margin: 0px 30px; */
+                    font-size: 15px;
+                    text-align: start;
+                    
+                    }
+                
+                    .practicals-image{
+                    
+                        width: 445px;
+                        height: 240px;
+                        
+                    }
+        
+
+    }
+
+    @media only screen and (min-width:720px) and (max-width:800px){
+              
+        #features-container{
+
+            padding: 0px;
+            
+            }
+            
+            #features-paragraph{
+            
+            font-size: 21px;
+            width: 650px;
+            margin: 0px 70px;
+            text-align: start;
+            
+            }
+            
+            #features-heading{
+            
+            font-size: 40px;
+            padding:0px 10px;
+            
+            }
+
+            #features-details{
+
+                flex-direction: column;
+                gap: 5px;
+                padding-left: 60px;
+                
+                }
+
+                #QnA-heading{
+    
+                font-size: 30px;
+                margin: 0px 270px 0px 200px;
+                
+                }
+                
+                #QnA-paragraph{
+                
+                width: 650px;
+                font-size: 21px;
+                margin-bottom: 5px;
+                
+                }
+                
+                #practicals-heading{
+                
+                font-size: 30px;
+                margin: 0px 270px 0px 200px;
+                
+                }
+               
+                .QnA-image{
+    
+                    width: 450px;
+                    height: 170px;
+                    padding-left: 70px;
+                    
+                }
+
+                #practicals-paragraph{
+                    width: 650px;
+                    font-size: 21px;
+                    /* text-align: center; */
+                    
+                    }
+                
+                    .practicals-image{
+                    
+                        width: 550px;
+                        height: 300px;
+                        /* justify-content: center; */
                         padding-left: 10px;
                         
                     }
         
-                    .QnA-image{
-        
-                        width: 350px;
-                        height: 90px;
-                        border-radius: 20px;
-                        padding-left: 70px;
-                        
-                    }
-    
-        
+
     }
-    
-    
-    
-    @media only screen and (min-width: 700px) and (max-width: 820px){
-    
+
+    @media only screen and (min-width:820px) and (max-width:900px){
+              
         #features-container{
-    
-            padding: 0px 10px;
+
+            padding: 0px;
             
             }
             
             #features-paragraph{
             
-            padding: 0px 30px;
-            font-size: 20px;
-            font-family: Arial, Helvetica, sans-serif;
-            
-            }
-    
-            .features{
-    
-                width: 500px;
-                height: 200px;
-                margin-left: 125px;
-    
-            }
-    
-            #features-heading{
-    
-                font-size: 30px;
-                padding-left: 5px;
-                font-family: Arial, Helvetica, sans-serif;
-                
-                }
-    
-                #features-details{
-                
-                    flex-direction: column;
-                    gap: 0px;
-                    padding-top: 10px;
-                    font-family: Arial, Helvetica, sans-serif;
-                    }
-    
-                    #QnA-heading{
-    
-                        text-align: center;
-                    font-size: 30px;
-                    color: #644777;
-                    font-family: Arial, Helvetica, sans-serif;
-                    
-                    }
-                    
-                    #QnA-paragraph{
-                    
-                    font-size: 20px;
-                    padding: 0px 50px;
-                    margin-bottom: 10px;
-                    font-family: Arial, Helvetica, sans-serif;
-                    
-                    }
-        
-                    #practicals-heading{
-        
-                        text-align: center;
-                    font-size: 30px;
-                    color: #644777;
-                    font-family: Arial, Helvetica, sans-serif;
-                    
-                    }
-                    
-                    #practicals-paragraph{
-                    
-                    padding: 0px 50px;
-                    font-size: 20px;
-                    font-family: Arial, Helvetica, sans-serif;
-                    
-                    }
-    
-                    .practicals-image{
-    
-                        width: 750px;
-                        height: 300px;
-                        border-radius: 20px;
-                        
-                    }
-        
-                    .QnA-image{
-        
-                        width: 400px;
-                        height: 150px;
-                        padding-left: 130px;
-                        border-radius: 20px;
-                        
-                    }
-    
-        
-    }
-    
-    
-    @media only screen and (min-width: 850px) and (max-width: 950px){
-    
-        #features-container{
-    
-            padding: 0px 10px;
-            
-            }
-            
-            #features-paragraph{
-            
-            padding: 5px 30px;
             font-size: 25px;
-            font-family: Arial, Helvetica, sans-serif;
+            width: 720px;
+            text-align: start;
+            margin: 0px 55px;
             
             }
-    
-            /* .features{
-    
-                width: 500px;
-                height: 200px;
-                margin-left: 200px;
-    
-            } */
-    
+            
             #features-heading{
-    
-                font-size: 40px;
-                padding-left: 5px;
-                font-family: Arial, Helvetica, sans-serif;
-                
-                }
-    
-                #features-details{
-                
-                    flex-direction: column;
-                    gap: 0px;
-                    padding-top: 10px;
-                    font-family: Arial, Helvetica, sans-serif;
-                    }
-    
-                    #QnA-heading{
-    
-                        text-align: center;
-                    font-size: 30px;
-                    color: #644777;
-                    font-family: Arial, Helvetica, sans-serif;
-                    
-                    }
-                    
-                    #QnA-paragraph{
-                    
-                    font-size: 25px;
-                    padding: 0px 50px;
-                    margin-bottom: 5px;
-                    font-family: Arial, Helvetica, sans-serif;
-                    
-                    }
-        
-                    #practicals-heading{
-        
-                        text-align: center;
-                    font-size: 30px;
-                    color: #644777;
-                    font-family: Arial, Helvetica, sans-serif;
-                    
-                    }
-                    
-                    #practicals-paragraph{
-                    
-                    padding: 5px 50px;
-                    font-size: 25px;
-                    font-family: Arial, Helvetica, sans-serif;
-                    
-                    }
-    
-                    .practicals-image{
-    
-                        width: 890px;
-                        height: 400px;
-                        border-radius: 20px;
-                        
-                    }
-        
-                    .QnA-image{
-        
-                        width: 500px;
-                        height: 230px;
-                        padding-left: 200px;
-                        border-radius: 20px;
-                        
-                    }
-       
-    }
-    
-    
-    
-    @media only screen and (min-width: 1000px){
-        
-        #features-container{
-    
-            padding: 0px 10px;
+            
+            font-size: 40px;
             
             }
-            
-            #features-paragraph{
-            
-            /* text-align: center; */
-            padding-left: 20px;
-            font-size: 18px;
-            font-family: Arial, Helvetica, sans-serif;
-            
-            }
-    
-            #features-heading{
-    
-                font-size: 35px;
-                padding-left: 20px;
-                text-align: center;
-                font-family: Arial, Helvetica, sans-serif;
+
+            #features-details{
+
+                flex-direction: column;
+                gap: 5px;
+                padding-left: 60px;
                 
                 }
-                
-                #features-details{
-    
-                padding-left: 10px;
-                display: flex;
-                gap: 0px;
-                padding-top: 30px;
-                font-family: Arial, Helvetica, sans-serif;
-                }
-    
+
                 #QnA-heading{
     
-                    text-align: center;
-                font-size: 25px;
-                color: #644777;
-                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
                 
                 }
                 
                 #QnA-paragraph{
                 
-                font-size: 18px;
-                padding: 0px 20px;
-                /* margin-bottom: 0px; */
-                font-family: Arial, Helvetica, sans-serif;
-                
-                }
-    
-                #practicals-heading{
-    
-                    text-align: center;
+                /* border: solid 1px; */
+                width: 720px;
+                text-align: start;
                 font-size: 25px;
-                color: #644777;
-                font-family: Arial, Helvetica, sans-serif;
+                margin-bottom: 0px;
                 
                 }
                 
-                #practicals-paragraph{
+                #practicals-heading{
                 
-                padding: 0px 20px;
-                font-size: 18px;
-                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
                 
                 }
-    
-                .practicals-image{
-    
-                    width: 420px;
-                    height: 200px;
-                    border-radius: 20px;
-                    
-                }
-    
+               
                 .QnA-image{
     
-                    width: 350px;
-                    height: 150px;
-                    border-radius: 20px;
+                    width: 520px;
+                    height: 170px;
+                    padding-left: 70px;
                     
                 }
-    
-    }
-    
-    @media only screen and (min-width: 1200px){
+
+                #practicals-paragraph{
+                    
+                    font-size: 25px;
+                    width: 720px;
+                    text-align: start;
+                    
+                    }
+                
+                    .practicals-image{
+                    
+                        width: 690px;
+                        height: 360px;
+                        
+                    }
         
+
+    }
+
+    @media only screen and (min-width:901px) and (max-width:1000px){
+              
         #features-container{
-    
-            padding: 20px;
+
+            padding: 0px;
             
             }
             
             #features-paragraph{
             
-            padding-left: 10px;
-            font-size: 20px;
-            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            width: 800px;
+            text-align: start;
+            margin: 0px 55px;
             
             }
-    
+            
             #features-heading{
-    
-                font-size: 40px;
-                padding-left: 10px;
-                font-family: Arial, Helvetica, sans-serif;
+            
+            font-size: 40px;
+            
+            }
+
+            #features-details{
+
+                flex-direction: column;
+                gap: 5px;
+                padding-left: 55px;
                 
                 }
-                
-                #features-details{
-                
-                display: flex;
-                gap: 0px;
-                padding-top: 50px;
-                font-family: Arial, Helvetica, sans-serif;
-                
-                }
-    
+
                 #QnA-heading{
     
-                    text-align: center;
                 font-size: 30px;
-                color: #644777;
-                font-family: Arial, Helvetica, sans-serif;
                 
                 }
                 
                 #QnA-paragraph{
                 
-                font-size: 20px;
-                margin-bottom: 70px;
-                font-family: Arial, Helvetica, sans-serif;
-                
-                }
-    
-                #practicals-heading{
-    
-                    text-align: center;
+                /* border: solid 1px; */
+                width: 800px;
+                text-align: start;
                 font-size: 30px;
-                color: #644777;
-                font-family: Arial, Helvetica, sans-serif;
+                margin-bottom: 0px;
                 
                 }
                 
-                #practicals-paragraph{
+                #practicals-heading{
                 
-                font-size: 20px;
-                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
                 
                 }
+               
+                .QnA-image{
     
-                .practicals-image{
-    
-                    width: 520px;
-                    height: 300px;
-                    border-radius: 20px;
+                    width: 600px;
+                    height: 200px;
+                    padding-left: 70px;
                     
                 }
+
+                #practicals-paragraph{
+                    
+                    font-size: 30px;
+                    width: 800px;
+                    text-align: start;
+                    
+                    }
+                
+                    .practicals-image{
+                    
+                        width: 770px;
+                        height: 400px;
+                        
+                    }
+        
+
+    }
+
+    @media only screen and (min-width:1000px) and (max-width:1190px){
+              
+        #features-container{
+
+            padding: 0px;
+            
+            }
+            
+            #features-paragraph{
+            
+            font-size: 20px;
+            width: 600px;
+            margin: 0px 210px;
+            
+            }
+            
+            #features-heading{
+            
+            font-size: 30px;
+            
+            }
+
+            #features-details{
     
+                gap: 30px;
+                padding-left: 120px;
+                
+                }
+
+                #QnA-heading{
+    
+                font-size: 20px;
+                
+                }
+                
+                #QnA-paragraph{
+                    
+                width: 400px;
+                font-size: 20px;
+                margin-bottom: 100px;
+                
+                }
+                
+                #practicals-heading{
+                
+                font-size: 20px;
+                
+                }
+               
+                .QnA-image{
+    
+                    width: 400px;
+                    height: 150px;
+                    
+                }
+
+                #practicals-paragraph{
+
+                    width: 360px;
+                    font-size: 20px;
+                    
+                    }
+                
+                    .practicals-image{
+                    
+                        width: 350px;
+                        height: 230px;
+                        
+                    }
+        
+
+    }
+    
+    
+    @media only screen and (min-width:1200px) and (max-width:1400px){
+              
+        #features-container{
+
+            padding: 0px;
+            
+            }
+            
+            #features-paragraph{
+            
+            font-size: 25px;
+            width: 750px;
+            margin: 0px 250px;
+            
+            }
+            
+            #features-heading{
+            
+            font-size: 40px;
+            
+            }
+
+            #features-details{
+    
+                gap: 20px;
+                padding-left: 130px;
+                
+                }
+
+                #QnA-heading{
+    
+                font-size: 30px;
+                
+                }
+                
+                #QnA-paragraph{
+                
+                width: 510px;
+                font-size: 25px;
+                margin-bottom: 150px;
+                
+                }
+                
+                #practicals-heading{
+                
+                font-size: 30px;
+                
+                }
+               
+                .QnA-image{
+    
+                    width: 500px;
+                    height: 200px;
+                    
+                }
+
+                #practicals-paragraph{
+
+                    width: 450px;
+                    font-size: 25px;
+                    
+                    }
+                
+                    .practicals-image{
+                    
+                        width: 500px;
+                        height: 320px;
+                        
+                    }
+        
+
     }
