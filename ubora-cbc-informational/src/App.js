@@ -2,7 +2,7 @@
 
 import Features from "./Features";
 
-const Ubora = () =>{
+const App = () =>{
 
 return(
 
@@ -18,4 +18,4 @@ return(
 
 }
 
-export default Ubora;
+export default App;

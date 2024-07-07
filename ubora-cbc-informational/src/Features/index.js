@@ -45,7 +45,7 @@ return(
     providing feedback , fostering a collaborative learning environment.</p>
  </div>
 
-<img src="/images/Q_A-removebg-preview.png" className='QnA-image'/>
+<img src="/images/Q&A.png" className='QnA-image'/>
 
 </div>
 
