@@ -1,62 +1,26 @@
-.faq-item{
-    /* margin: 10px 0; */
-    display: flex;
-    flex-direction: column;
+body{
+     margin-right: 50px; 
+    
 }
-.faq-question{
-    cursor: pointer;
-    font-weight: bold;
-    margin-left: 30%;
-    margin-top: 1.5%;
-    /*  */
-    display: flex;
-    gap: 15%;
-    align-items: center;
-    /* justify-content: space-between; */
-    /* padding: 10px 0; */
-
-
+.container{
+   
 }
 
-/*  */
-.faq-question span{
-    background-color: black;
-    color: white;
-    /* padding: 3.3px 7.9px; */
-    padding: 5px 10px;
-    border-radius: 50%;
-    margin-left: -5px;
-
-}
-/*  */
-
-.faq-answer{
-    /* margin-top: 5px; */
-    margin-top: 10px;
-    padding-left: 30px;
-    margin-left: 28%;
-    margin-top: 1.5%;
-    width: 36%;
-}
 .par{
     margin-left: 30%;
-    margin-top: 2.5%;
+    margin-top: 1.5%;
 }
 .heading{
     margin-left: 38%;
     font-size: 35px;
-    margin-top: -1.5%;
+    margin-top: -2.1%;
 } 
 #faqs{
     text-align: center;
-    font-size: 80px;
-    margin-top: -0.1%;
+    font-size: 90px;
+    margin-top: -0.8%;
 }
-.line{
-    width: 40%;
-    margin-left: 28%;
-    
-}
+
 .search{
     margin-left: 25%;
     margin-top: 5%; 
@@ -85,8 +49,8 @@
 }
 .search-image{
     position: relative;
-    margin-left: 1.5%;
-    width: 65%;
+    margin-left: 4.8%;
+    width: 61%;
     height: 190px;
     opacity: 40%;
     margin-top: -3.5%;
@@ -95,7 +59,7 @@
 .text-over{
     position: absolute;
     margin-top: -10.5%;
-    margin-left: 18.5%;
+    margin-left: 18.9%;
 }
 
 
@@ -106,49 +70,35 @@
         text-align: center;
         font-size: 50px;
         margin-top: -0.1%;
+        margin-left: 20%;
     }
     .heading{
-        margin-left: 15%;
-        font-size: 20px;
+        margin-left: 16%;
+        font-size: 18px;
         margin-top: -1.5%;
     } 
     .par{
         margin-left: 10%;
         margin-top: 2.5%;
+        width: 85%;
+
     }
-    .faq-question{
-        cursor: pointer;
-        font-weight: bold;
-        margin-left: 11%;
-        margin-top: 1.5%;
-    }
-    .faq-answer{
-        margin-top: 5px;
-        padding-left: 30px;
-        margin-left: 2.8%;
-        margin-top: 1.5%;
-        width: 78%;
-    }
-    .line{
-        width: 80%;
-        margin-left: 11%;
-        
-    }
+
     .search-button{
-        width: 68%;
-        height: 40px;
-        margin-left: -19%;
+        width: 88%;
+        height: 35px;
+        margin-left: -32%;
         margin-top: -5%;
         background-color: white;
         border: none;
     }
     .search-par{
-        margin-top: 10px;
-        font-size: 26px;
-        margin-left: -35.5%;
+        margin-top: 24px;
+        font-size: 23px;
+        margin-left: -41.5%;
     }
     .search-submit{
-        height: 40px;
+        height: 35px;
         width: 24%;
         background-color: white;
         border: none;
@@ -156,9 +106,9 @@
     }
     .search-image{
         position: relative;
-        margin-left: -17.5%;
-        width: 110%;
-        height: 160px;
+        margin-left: -27.5%;
+        width: 144%;
+        height: 150px;
         opacity: 40%;
         margin-top: -3.5%;
     }
@@ -177,6 +127,7 @@
         text-align: center;
         font-size: 50px;
         margin-top: -0.1%;
+        margin-left: 22%;
     }
     .heading{
         margin-left: 15%;
@@ -184,43 +135,27 @@
         margin-top: -1.5%;
     } 
     .par{
-        margin-left: 10%;
-        margin-top: 2.5%;
-    }
-    .faq-question{
-        cursor: pointer;
-        font-weight: bold;
         margin-left: 12%;
-        margin-top: 1.5%;
-    }
-    .faq-answer{
-        margin-top: 5px;
-        padding-left: 30px;
-        margin-left: 4.8%;
-        margin-top: 1.5%;
-        width: 78%;
-    }
-    .line{
-        width: 80%;
-        margin-left: 11%;
-        
+        margin-top: 2.5%;
+        width: 90%;
+        font-size: 13px;
     }
 
 .search-button{
-    width: 68%;
-    height: 40px;
-    margin-left: -18%;
+    width: 89%;
+    height: 35px;
+    margin-left: -31%;
     margin-top: -5%;
     background-color: white;
     border: none;
 }
 .search-par{
-    margin-top: 10px;
-    font-size: 28px;
-    margin-left: -34%;
+    margin-top: 30px;
+    font-size: 24px;
+    margin-left: -38%;
 }
 .search-submit{
-    height: 40px;
+    height: 35px;
     width: 24%;
     background-color: white;
     border: none;
@@ -228,9 +163,9 @@
 }
 .search-image{
     position: relative;
-    margin-left: -15.5%;
-    width: 110%;
-    height: 160px;
+    margin-left: -26%;
+    width: 141%;
+    height: 150px;
     opacity: 40%;
     margin-top: -3.5%;
 }
@@ -248,50 +183,34 @@
         text-align: center;
         font-size: 50px;
         margin-top: -0.1%;
+        margin-left: 22%;
     }
     .heading{
-        margin-left: 15%;
+        margin-left: 20%;
         font-size: 20px;
         margin-top: -1.5%;
     } 
     .par{
-        margin-left: 10%;
+        margin-left: 15%;
         margin-top: 2.5%;
-    }
-    .faq-question{
-        cursor: pointer;
-        font-weight: bold;
-        margin-left: 12%;
-        margin-top: 1.5%;
-    }
-    .faq-answer{
-        margin-top: 5px;
-        padding-left: 30px;
-        margin-left: 4.8%;
-        margin-top: 1.5%;
-        width: 78%;
-    }
-    .line{
-        width: 80%;
-        margin-left: 11%;
-        
+        width: 88%;
     }
 
 .search-button{
-    width: 68%;
-    height: 40px;
-    margin-left: -23%;
+    width: 91%;
+    height: 38px;
+    margin-left: -36%;
     margin-top: -5%;
     background-color: white;
     border: none;
 }
 .search-par{
-    margin-top: 10px;
-    font-size: 28px;
-    margin-left: -34%;
+    margin-top: 23px;
+    font-size: 26px;
+    margin-left: -42%;
 }
 .search-submit{
-    height: 40px;
+    height: 38px;
     width: 24%;
     background-color: white;
     border: none;
@@ -299,12 +218,13 @@
 }
 .search-image{
     position: relative;
-    margin-left: -15.5%;
-    width: 105%;
-    height: 160px;
+    margin-left: -27.4%;
+    width: 141%;
+    height: 150px;
     opacity: 40%;
     margin-top: -3.5%;
 }
+
 .text-over{
     position: absolute;
     margin-top: -38.5%;
@@ -322,33 +242,16 @@
         text-align: center;
         font-size: 50px;
         margin-top: -0.1%;
+        margin-left: 19%;
     }
     .heading{
-        margin-left: 24%;
+        margin-left: 27%;
         font-size: 20px;
         margin-top: -1.5%;
     } 
     .par{
-        margin-left: 10%;
+        margin-left: 12%;
         margin-top: 2.5%;
-    }
-    .faq-question{
-        cursor: pointer;
-        font-weight: bold;
-        margin-left: 10%;
-        margin-top: 1.5%;
-    }
-    .faq-answer{
-        margin-top: 5px;
-        padding-left: 30px;
-        margin-left: 4.8%;
-        margin-top: 1.5%;
-        width: 78%;
-    }
-    .line{
-        width: 80%;
-        margin-left: 11%;
-        
     }
 
 .search-button{
@@ -359,6 +262,18 @@
     background-color: white;
     border: none;
 }
+
+.search-image{
+    position: relative;
+    margin-left: -28.8%;
+    width: 138%;
+    height: 190px;
+    opacity: 40%;
+    margin-top: -3.5%;
+}
+
+
+
 .search-par{
     margin-top: 10px;
     font-size: 28px;
@@ -371,31 +286,25 @@
     border: none;
     margin-left: 0.7%;
 }
-.search-image{
-    position: relative;
-    margin-left: -15.5%;
-    width: 105%;
-    height: 160px;
-    opacity: 40%;
-    margin-top: -3.5%;
-}
+
 .text-over{
     position: absolute;
     margin-top: -38.5%;
     margin-left: 15.5%;
 }
 .search-button{
-    width: 68%;
+    width: 88%;
     height: 40px;
-    margin-left: -25%;
+    margin-left: -35%;
     margin-top: -5%;
     background-color: white;
     border: none;
 }
+
 .search-par{
     margin-top: 10px;
-    font-size: 28px;
-    margin-left: -42%;
+    font-size: 31px;
+    margin-left: -45%;
 }
 .search-submit{
     height: 40px;
@@ -404,18 +313,11 @@
     border: none;
     margin-left: 0.7%;
 }
-.search-image{
-    position: relative;
-    margin-left: -17.5%;
-    width: 106%;
-    height: 180px;
-    opacity: 40%;
-    margin-top: -3.5%;
-}
+
 
 .text-over{
     position: absolute;
-    margin-top: -32.5%;
+    margin-top: -30.5%;
     margin-left: 18.5%;
 }
 
@@ -424,26 +326,12 @@
 
 
 @media screen and (min-width:720px) and (max-width:800px){
-    .faq-item{
-        margin: 10px 0;
-    }
-    .faq-question{
-        cursor: pointer;
-        font-weight: bold;
-        margin-left: 21%;
-        margin-top: 1.5%;
-    }
-    .faq-answer{
-        margin-top: 5px;
-        padding-left: 30px;
-        margin-left: 17%;
-        margin-top: 1.5%;
-        width: 65%;
-    }
+
     .par{
         margin-left: 20%;
         margin-top: 2.5%;
         width: 76%;
+        font-size: 20px;
     }
     .heading{
         margin-left: 22%;
@@ -455,11 +343,7 @@
         font-size: 80px;
         margin-top: -0.1%;
     }
-    .line{
-        width: 65%;
-        margin-left: 20%;
-        
-    }
+
     .search{
         margin-left: 25%;
         margin-top: 5%; 
@@ -467,29 +351,29 @@
     }
     
     .search-button{
-        width: 68%;
+        width: 74%;
         height: 40px;
-        margin-left: -22%;
-        margin-top: -5%;
+        margin-left: -26%;
+        margin-top: -7%;
         background-color: white;
         border: none;
     }
     .search-par{
-        margin-top: 10px;
-        font-size: 32px;
-        margin-left: -30%;
+        margin-top: 5px;
+        font-size: 39px;
+        margin-left: -34%;
     }
     .search-submit{
         height: 40px;
-        width: 14%;
+        width: 16%;
         background-color: white;
         border: none;
         margin-left: 0.7%;
     }
     .search-image{
         position: relative;
-        margin-left: -3.5%;
-        width: 82%;
+        margin-left: -23.8%;
+        width: 124%;
         height: 190px;
         opacity: 40%;
         margin-top: -3.5%;
@@ -497,8 +381,8 @@
     
     .text-over{
         position: absolute;
-        margin-top: -20.5%;
-        margin-left: 18.5%;
+        margin-top: -21.5%;
+        margin-left: 17%;
     }
     
     
@@ -510,39 +394,25 @@
     .faq-item{
         margin: 10px 0;
     }
-    .faq-question{
-        cursor: pointer;
-        font-weight: bold;
-        margin-left: 21%;
-        margin-top: 4.5%;
-    }
-    .faq-answer{
-        margin-top: 8px;
-        padding-left: 30px;
-        margin-left: 17%;
-        margin-top: 1.5%;
-        width: 65%;
-    }
+
     .par{
-        margin-left: 20%;
+        margin-left: 18%;
         margin-top: 2.5%;
-        width: 76%;
+        width: 72%;
+        font-size: 24px;
     }
     .heading{
-        margin-left: 22%;
-        font-size: 35px;
+        margin-left: 26%;
+        font-size: 38px;
         margin-top: -1.5%;
     } 
     #faqs{
         text-align: center;
         font-size: 80px;
         margin-top: -0.1%;
-    }
-    .line{
-        width: 67%;
         margin-left: 20%;
-        
     }
+  
     .search{
         margin-left: 25%;
         margin-top: 5%; 
@@ -550,17 +420,17 @@
     }
     
     .search-button{
-        width: 68%;
+        width: 84%;
         height: 40px;
-        margin-left: -22%;
-        margin-top: -5%;
+        margin-left: -32%;
+        margin-top: -8%;
         background-color: white;
         border: none;
     }
     .search-par{
         margin-top: 10px;
-        font-size: 32px;
-        margin-left: -30%;
+        font-size: 44px;
+        margin-left: -41%;
     }
     .search-submit{
         height: 40px;
@@ -571,16 +441,16 @@
     }
     .search-image{
         position: relative;
-        margin-left: -3.5%;
-        width: 82%;
-        height: 190px;
+        margin-left: -29.5%;
+        width: 135%;
+        height: 200px;
         opacity: 40%;
         margin-top: -3.5%;
     }
     
     .text-over{
         position: absolute;
-        margin-top: -20.5%;
+        margin-top: -22.5%;
         margin-left: 18.5%;
     }
     
@@ -592,29 +462,15 @@
     .faq-item{
         margin: 10px 0;
     }
-    .faq-question{
-        cursor: pointer;
-        font-weight: bold;
-        margin-left: 20%;
-        margin-top: 4.5%;
-        font-size: 25px;
-    }
-    .faq-answer{
-        margin-top: 8px;
-        padding-left: 30px;
-        margin-left: 17%;
-        margin-top: 1.5%;
-        width: 65%;
-        font-size: 22px;
-    }
+
     .par{
-        margin-left: 20%;
+        margin-left: 15%;
         margin-top: 2.5%;
         width: 76%;
-        font-size: 22px;
+        font-size: 28px;
     }
     .heading{
-        margin-left: 26.5%;
+        margin-left: 29.5%;
         font-size: 35px;
         margin-top: -1.5%;
     } 
@@ -622,12 +478,9 @@
         text-align: center;
         font-size: 80px;
         margin-top: -0.1%;
+        margin-left: 13%;
     }
-    .line{
-        width: 67%;
-        margin-left: 20%;
-        
-    }
+  
     .search{
         margin-left: 25%;
         margin-top: 5%; 
@@ -635,8 +488,8 @@
     }
     
     .search-button{
-        width: 69%;
-        height: 40px;
+        width: 74%;
+        height: 42px;
         margin-left: -22%;
         margin-top: -5%;
         background-color: white;
@@ -644,11 +497,11 @@
     }
     .search-par{
         margin-top: 10px;
-        font-size: 32px;
+        font-size: 48px;
         margin-left: -30%;
     }
     .search-submit{
-        height: 40px;
+        height: 42px;
         width: 15%;
         background-color: white;
         border: none;
@@ -656,40 +509,23 @@
     }
     .search-image{
         position: relative;
-        margin-left: -4.5%;
-        width: 84%;
-        height: 190px;
+        margin-left: -27%;
+        width: 128%;
+        height: 200px;
         opacity: 40%;
-        margin-top: -2.5%;
+        margin-top: -3.5%;
     }
     
     .text-over{
         position: absolute;
-        margin-top: -17.5%;
-        margin-left: 18.5%;
+        margin-top: -18.5%;
+        margin-left: 16.5%;
     }
 
 }
 
 @media screen and (min-width:1200px) and (max-width:1400px){
-    .faq-item{
-        margin: 10px 0;
-    }
-    .faq-question{
-        cursor: pointer;
-        font-weight: bold;
-        margin-left: 20%;
-        margin-top: 4.5%;
-        font-size: 25px;
-    }
-    .faq-answer{
-        margin-top: 8px;
-        padding-left: 30px;
-        margin-left: 17%;
-        margin-top: 1.5%;
-        width: 65%;
-        font-size: 22px;
-    }
+ 
     .par{
         margin-left: 20%;
         margin-top: 2.5%;
@@ -697,7 +533,7 @@
         font-size: 22px;
     }
     .heading{
-        margin-left: 26.5%;
+        margin-left: 38.5%;
         font-size: 35px;
         margin-top: -1.5%;
     } 
@@ -705,12 +541,9 @@
         text-align: center;
         font-size: 80px;
         margin-top: -0.1%;
+        margin-left: 16%;
     }
-    .line{
-        width: 67%;
-        margin-left: 20%;
-        
-    }
+  
     .search{
         margin-left: 25%;
         margin-top: 5%; 
@@ -727,7 +560,7 @@
     }
     .search-par{
         margin-top: 10px;
-        font-size: 32px;
+        font-size: 44px;
         margin-left: -30%;
     }
     .search-submit{
@@ -739,541 +572,20 @@
     }
     .search-image{
         position: relative;
-        margin-left: -4.5%;
-        width: 84%;
-        height: 185px;
+        margin-left: -24.8%;
+        width: 122%;
+        height: 200px;
         opacity: 40%;
-        margin-top: -2.5%;
+        margin-top: -3.5%;
     }
     
     .text-over{
         position: absolute;
-        margin-top: -12.5%;
+        margin-top: -14.5%;
         margin-left: 18.5%;
     }
 
 }
 
-    
 
 
-/* .intro{
-    margin-left: 28%;
-}
- .par{
-    margin-left: 4.5%;
-}
-
-.heading{
-    margin-left: 14%;
-    font-size: 35px;
-} 
-
-.questions{
-    margin-left: 6%;
-    margin-top: 3%;
-    font-size: 15px;
-}
-.minus{
-    margin-left: 31.7%;
-}
-
-.plus{
-    margin-left: 24%;
-    size: 10%;
-
-}
-.plus-sec{
-    margin-left: 32%;
-}
-.plus-third{
-    margin-left: 22.6%;
-}
-.line{
-    width: 60%;
-    margin-left: -3.5%;
-}
-.que{
-    color: purple;
-}
-
-.search{
-    margin-left: 25%;
-    margin-top: 5%; 
-
-}
-
-.search-button{
-    width: 70%;
-    height: 40px;
-    margin-left: -22%;
-    border-radius: 5%;
-    border: none;
-}
-.search-par{
-    margin-top: 30px;
-    font-size: 48px;
-    margin-left: -30%;
-}
-.search-submit{
-    height: 40px;
-    width: 15%;
-    border-radius: 10%;
-    border: none;
-    margin-left: 0.3%;
-}
-.search-image{
-    position: relative;
-    margin-left: -35%;
-    width: 90%;
-    height: 230px;
-    opacity: 42%;
-}
-
-.text-over{
-    position: absolute;
-    margin-top: -12%;
-}
-#faqs{
-    text-align: center;
-    font-size: 80px;
-    margin-top: -0.1%;
-}
-
-
-@media screen and (min-width:280px) and (max-width:480px){
-    .intro{
-        margin-left: 14%;
-    }
-    .par{
-        margin-left: -1.5%;
-    }
-    
-    .heading{
-        margin-left: 2%;
-        font-size: 20px;
-    }
-    .questions{
-        margin-left: -3%;
-        margin-top: 3%;
-    }
-    .minus{
-        margin-left: 86%;
-        margin-top: -18%;
-    }
-    
-    .plus{
-        margin-left: 84%;
-        margin-top: -17%;
-    
-    }
-    .plus-sec{
-        margin-left: 82%;
-        margin-top: -6%;
-    }
-    .plus-third{
-        margin-left: 82%;
-    }
-    .line{
-        width: 95%;
-        margin-left: -3.5%;
-    }
-    .que{
-        color: purple;
-    }
-    
-    .search{
-        margin-left: 25%;
-        margin-top: 5%; 
-    
-    }
-    
-    .search-button{
-        width: 75%;
-        height: 38px;
-        margin-left: -24%;
-        border-radius: 5%;
-        border: none;
-    }
-    .search-par{
-        margin-top: 5px;
-        font-size: 20px;
-        margin-left: -28%;
-    }
-    .search-submit{
-        height: 38px;
-        width: 25%;
-        border-radius: 10%;
-        border: none;
-        margin-left: 0.3%;
-    }
-    .search-image{
-        position: relative;
-        margin-left: -40%;
-        width: 128%;
-        height: 150px;
-        opacity: 42%;
-    }
-    
-    .text-over{
-        position: absolute;
-        margin-top: -34%;
-    }
-    #faqs{
-        text-align: center;
-        font-size: 45px;
-    }
-    
-
-}
-
-@media screen and (min-width:481px) and (max-width:680px){
-    .intro{
-        margin-left: 28%;
-    }
-    .par{
-        margin-left: -4.5%;
-    }
-    
-    .heading{
-        margin-left: -5%;
-        font-size: 30px;
-    }
-    
-    .questions{
-        margin-left: -10%;
-        margin-top: 3%;
-    }
-    .minus{
-        margin-left: -0.2%;
-    }
-    
-    .plus{
-        margin-left: 24%;
-        size: 10%;
-    
-    }
-    .plus-sec{
-        margin-left: 32%;
-    }
-    .plus-third{
-        margin-left: 22%;
-    }
-    .line{
-        width: 95%;
-        margin-left: -3.5%;
-    }
-    .que{
-        color: purple;
-    }
-    
-    .search{
-        margin-left: 25%;
-        margin-top: 5%; 
-    
-    }
-    
-    .search-button{
-        width: 70%;
-        height: 40px;
-        margin-left: -22%;
-        border-radius: 5%;
-        border: none;
-    }
-    .search-par{
-        margin-top: 30px;
-        font-size: 40px;
-        margin-left: -24%;
-    }
-    .search-submit{
-        height: 40px;
-        width: 20%;
-        border-radius: 10%;
-        border: none;
-        margin-left: 0.3%;
-    }
-    .search-image{
-        position: relative;
-        margin-left: -46%;
-        width: 130%;
-        height: 200px;
-        opacity: 42%;
-    }
-    
-    .text-over{
-        position: absolute;
-        margin-top: -40%;
-        margin-right: 5%;
-    }
-    #faqs{
-        text-align: center;
-        font-size: 45px;
-    }
-
-}
-
-@media screen and (min-width:681px) and (max-width:880px){
-    .intro{
-        margin-left: 28%;
-    }
-    .par{
-        margin-left: -10%;
-    }
-    
-    .heading{
-        margin-left: -9%;
-        font-size: 35px;
-    }
-    
-    .questions{
-        margin-left: -10%;
-        margin-top: 3%;
-    }
-    .minus{
-        margin-left: 35%;
-    }
-    
-    .plus{
-        margin-left: 18%;
-        size: 10%;
-    
-    }
-    .plus-sec{
-        margin-left: 34.8%;
-    }
-    .plus-third{
-        margin-left: 15%;
-    }
-    .line{
-        width: 90%;
-        margin-left: -3.5%;
-    }
-    .que{
-        color: purple;
-    }
-    
-    .search{
-        margin-left: 25%;
-        margin-top: 5%; 
-    
-    }
-    
-    .search-button{
-        width: 60%;
-        height: 40px;
-        margin-left: -22%;
-        border-radius: 5%;
-        border: none;
-    }
-    .search-par{
-        margin-top: 30px;
-        font-size: 40px;
-        margin-left: -24%;
-    }
-    .search-submit{
-        height: 40px;
-        width: 20%;
-        border-radius: 10%;
-        border: none;
-        margin-left: 0.3%;
-    }
-    .search-image{
-        position: relative;
-        margin-left: -44%;
-        width: 120%;
-        height: 230px;
-        opacity: 42%;
-    }
-    
-    .text-over{
-        position: absolute;
-        margin-top: -28%;
-        margin-right:18%;
-        
-    }
-    #faqs{
-        text-align: center;
-        font-size: 45px;
-        margin-left: 4%;
-    }
-
-}
-
-@media screen and (min-width:881px) and (max-width:1024px){
-    .intro{
-        margin-left: -12%;
-    }
-    .par{
-        margin-left: 20.5%;
-    }
-    
-    .heading{
-        margin-left: 18%;
-        font-size: 35px;
-    }
-    
-    .questions{
-        margin-left: 20%;
-        margin-top: 3%;
-    }
-    .minus{
-        margin-left: 32%;
-    }
-    
-    .plus{
-        margin-left: 24%;
-        size: 10%;
-    
-    }
-    .plus-sec{
-        margin-left: 32%;
-    }
-    .plus-third{
-        margin-left: 22%;
-    }
-    .line{
-        width: 60%;
-        margin-left: -3.5%;
-    }
-    .que{
-        color: purple;
-    }
-    
-    .search{
-        margin-left: 25%;
-        margin-top: 5%; 
-    
-    }
-    
-    .search-button{
-        width: 70%;
-        height: 40px;
-        margin-left: -2%;
-        border-radius: 5%;
-        border: none;
-    }
-    .search-par{
-        margin-top: -30px;
-        font-size: 30px;
-        margin-left: 20%;
-    }
-    .search-submit{
-        height: 40px;
-        width: 15%;
-        border-radius: 10%;
-        border: none;
-        margin-left: 0.3%;
-    }
-    .search-image{
-        position: relative;
-        margin-left: -10%;
-        width: 85%;
-        height: 255px;
-        opacity: 42%;
-    }
-    
-    .text-over{
-        position: absolute;
-        margin-top: -16%;
-    }
-    #faqs{
-        text-align: center;
-        font-size: 45px;
-    }
-    
-    
-
-}
-
-
-@media screen and (min-width:1025px) and (max-width:1280px){
-    .intro{
-        margin-left: -12%;
-    }
-    .par{
-        margin-left: 28%;
-    }
-    
-    .heading{
-        margin-left: 39%;
-        font-size: 35px;
-    }
-    
-    .questions{
-        margin-left: 28%;
-        margin-top: 3%;
-    }
-    .minus{
-        margin-left: 32%;
-    }
-    
-    .plus{
-        margin-left: 24%;
-        size: 10%;
-    
-    }
-    .plus-sec{
-        margin-left: 32%;
-    }
-    .plus-third{
-        margin-left: 22%;
-    }
-    .line{
-        width: 80%;
-        margin-left: -3.5%;
-    }
-    .que{
-        color: purple;
-    }
-    
-    .search{
-        margin-left: 25%;
-        margin-top: 5%; 
-    
-    }
-    .search-button{
-        width: 70%;
-        height: 40px;
-        margin-left: 60.6%;
-        border-radius: 5%;
-        border: none;
-    }
-    
-    .search-par{
-        margin-top: -30px;
-        font-size: 30px;
-        margin-left: 20%;
-    }
-    .search-submit{
-        height: 40px;
-        width: 15%;
-        border-radius: 10%;
-        border: none;
-        margin-left: 140%;
-        margin-top: -40% ;
-
-    }
-    .search-image{
-        position: relative;
-        margin-left: 3%;
-        width: 70%;
-        height: 240px;
-        opacity: 42%;
-        margin-top: -20px;
-    }
-    
-    .text-over{
-        position: absolute;
-        margin-top: -16%;
-    }
-    #faqs{
-        text-align: center;
-        font-size: 50px;
-        margin-left: 3%;
-    }
-    
-    
-
-}
-
- */

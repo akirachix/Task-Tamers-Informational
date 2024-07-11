@@ -1,99 +1,83 @@
-import React from "react";
-import ReactDOM from 'react-dom'
-import './index.css'
-// import Que from "./Faq";
-import App from "../App";
-// import reportWebVitals from "../reportWebVitals";
-import reportWebVitals from "../reportWebVitals";
 
-ReactDOM.render(
-    <React.StrictMode> 
-        <App/>
-    </React.StrictMode>,
-    document.getElementById('root')
-);
+import React from 'react';
+import './index.css';
+import { FaqItem } from './components/FaqItem';
+import './components/FaqItem/index.css';
 
-reportWebVitals();
+const Faq = () =>{
 
+  const faqs = [
+    {
+      question: 'What is Ubora?',
+      answer: 'Ubora is a platform build to improve CBC student engagement during online learning. It offers different content organized by different topics.'
+    
+    },
+    {
+      question:'What kind of educational content does Ubora offer? ',
+      answer:'Ubora CBC mainly offers practical step by step instructions for CBC subjects like Homescience and Agriculture.'
+    },
+    {
+      question: 'Do I need internet to access content ?',
+      answer:'Internet is required for one to access the practicals instructions and also for one to ask a question.'
+    },
+    {
+      question: 'What subjects are currently available on the platform ? ',
+      answer:'Ubora offers Homescience, Agriculture, Art and Craft, Integrated Science, and Health Education.'
 
+    },
+  ]
 
+  return(
+    <div>
+      <h1 id='faqs'>FAQs</h1>
+      <div>
+      <h2 className='heading'>Frequently Asked Questions</h2>
+      <p className='par'>Below are answers to some of the most frequently asked questions (FAQS) about Ubora and our platform.</p>
+      </div>
+      {faqs.map((faq,index) =>(
+        <FaqItem className='all-questions'key={index}
+        question={faq.question}
+        answer={faq.answer}/>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      ))}
 
 
+         <div className='search'>
+           <img src="/images/questionmark.webp" alt='questionmark' className='search-image'/>
+           <div className='text-over'>
+           <p className='search-par'><b>What can we help you find?</b></p>
+        <form>
+          <input type='search' className='search-button'></input>
+          <button className='search-submit'>Search</button>
+        </form>
+        </div>
+
+        </div>
+
+  
+    </div>
 
 
-// import minus from "../images/minus.png";
-// import plus from "../images/plus.png"
+  );
+};
+
+export default Faq;
 
 
 
-// const  Content = () =>{
-//     return(
-//         <div className="intro">
-//         <h2 className='heading'>Frequently Asked Questions</h2>
-//         <p className='par'>Below are answers to some of the most frequently asked questions (FAQS) about Ubora and our platform.</p>
 
 
-//         <div className='questions'>
-//         <p className='que'>What is Ubora and what does it offer ?<img src="/images/minus.png" alt='minus' className='minus'/></p>
-//         <p>Ubora is a platform build to improve CBC student engagement during online learning. It <br></br>offers different content organized by different topics. </p>
-//         <hr className='line'></hr>
-//         </div>
-        
-//         <div className='questions'>
-//         <p>What kind of educational content does Ubora offer? <img src="/images/plus.png" alt='plus' className='plus'/></p>
-//         <hr className='line'></hr>
-//         </div>
-        
-//         <div className='questions'>
-//         <p>Do I need internet to access content ? <img src="/images/plus.png" alt='plus' className='plus-sec'/></p>
-//         <hr className='line'></hr>
-//         </div>
-       
-//        <div className='questions'>
-//         <p>What subjects are currently available on the platform ? <img src="/images/plus.png" alt='plus' className='plus-third'/></p>
-//         <hr className='line'></hr>
-//         </div>
 
-//        <div className='search'>
-//        <img src="/images/questionmark.webp" alt='questionmark' className='search-image'/>
-         
-//         <div className='text-over'>
-//         <p className='search-par'><b>What can we help you find?</b></p>
-//         <form>
-//             <input type='search' placeholder='search...' className='search-button'></input>
-//             <button className='search-submit'>search</button>
-//         </form>
-//         </div> 
 
-//         </div>
 
-//         </div>
-//     )
-// };
 
-// export default Content;
+
+
+
+
+
+
+
+
+
+

@@ -1,9 +1,8 @@
-import './index.css'
-// import React from 'react';{ useState } from "react";
-import React, {useState} from 'react';
+
+import {useState} from 'react';
 
 
-const FAQ = ({question,answer}) => {
+export const FaqItem = ({question,answer}) => {
     const [isOpen, setIsOpen] = 
     useState(false);
 
@@ -14,7 +13,7 @@ const FAQ = ({question,answer}) => {
 
 
     return (
-        <div>
+        <div className='container'>
 
         <div className='faq-item'>
            
@@ -25,8 +24,10 @@ const FAQ = ({question,answer}) => {
                 'purple':'black'
             }}>
                 {question} 
-                <span> {isOpen ? '-': '+' } </span>
+                <span className='span'> {isOpen ? '-': '+' } </span>
+             
             </div>
+
             {isOpen && <div
             className="faq-answer">{answer}</div>}
              <hr className='line'></hr>
@@ -37,5 +38,3 @@ const FAQ = ({question,answer}) => {
         
     );
 };
-
-export default FAQ;
