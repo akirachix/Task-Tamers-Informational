@@ -1,11 +1,15 @@
-import Navbar from './Home';
+import React from 'react';
+import Navbar from './Home/navbar';
 
-const App = () =>{
-    return (
-        <div className="app">
-            <Navbar/>
-        </div>
-    )
+function App() {
+
+  return (
+    <div>
+      <Navbar />
+     
+    </div>
+  );
+  
 }
-export  default App;
 
+export default App;
