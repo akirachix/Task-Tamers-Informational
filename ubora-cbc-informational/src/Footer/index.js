@@ -6,10 +6,8 @@ const Footer = ()=>{
  
 <div id='main'>
 
-<br/>
-
-<div id='first-part'>
-<h2>Get In Touch</h2>
+<div id='get-in-touch'>
+<h2 className='get'>Get In Touch</h2>
 <label for='Your Name'>Your Name</label>
 <input name="first name" type="text" placeholder="Your Name" className="input"/>
 
@@ -19,56 +17,61 @@ const Footer = ()=>{
 <label for="Message">Your Message</label>
 <input name="message" type="text" placeholder="Message" className="input"/>
 
-<br/> 
+<br/>
 
-<button>Send</button>
-
-</div>
-
-
-<div>
-
-<div id='second-part'>
-    <h2>Contact Us</h2>
-    <p>Our team is dedicated to providing top-notch support and guidance to <br/> ensure your learning experience is seamless and successful.Let’s
-       embark on <br/> this education journey together. Get in touch with us today and
-       discover the <br/> endless possibilities that our platform offers.
-    <br/> <br/>
-       LOOKING FOWARD TO HEARING FROM YOU SOON!</p>
-
-    <div id='location'>
-    <img src="/location-svgrepo-com.svg" alt='location'/>
-        <p><b>Head Office</b></p>
-        <p id='p1'>LandMark Plaza,Airwings Khodek Rd,Nairobi</p>
-    </div>
-
-    <div id='location'>
-    <img src="/email-svgrepo-com (1).svg" alt='email'></img>
-    <p><b>Email Us</b></p>
-    <p id='p1'>uboracbc@gmail.com</p>
-    </div>
-
-
-    <div id='location'>
-    <img src="/call-receive-svgrepo-com.svg" alt='call'/>
-    <p><b>Call Us</b></p>
-    <p id='p1'>+254689238913/+254278232872</p>
-    </div>
+<button><b>Send</b></button>
 
 </div>
 
 <div>
-    <p><b>Follow Us on Social Media</b></p>
+
+<div id='contacts'>
+    <h2 className="contact">Contact Us</h2>
+    <p id='p2'>Our team is dedicated to providing top-notch support and guidance to ensure your learning experience is seamless and successful.   Get in touch with us today and
+       discover the endless possibilities that our platform offers.
+    </p>
+
+      <p id='p2'> LOOKING FOWARD TO HEARING FROM YOU SOON!</p>
+    
+    <div className='Information'>
+
+    <div id='headoffice'>
+    <img src="/location-svgrepo-com.svg" alt='location' className='images'/>
+        <p id='icons'><b>Head Office</b></p>
+        <p className="place">LandMark Plaza,Khodek Rd,Nairobi</p>
+    </div>
+
+    <div id='emailus'>
+    <img src="/email-svgrepo-com (1).svg" alt='email' className='images'></img>
+    <p id='icons'><b>Email Us</b></p>
+    <p className="email">uboracbc@gmail.com</p>
+    </div>
+
+
+    <div id='callus'>
+    <img src="/call-receive-svgrepo-com.svg" alt='call' className='images'/>
+    <p id='icons'><b>Call Us</b></p>
+    <p className="numbers">+25489289/+25428238</p>
+    </div>
+    </div>
+
+</div>
+
+<div className='follow'>
+    <h2 className='foll'>Follow Us On Social Media</h2>
+
+    <div className="social">
+
     <img src="/facebook-svgrepo-com.svg" alt='faceboook' id='imgs'/>
-    <img src="/images/instagram-svgrepo-com.svg" alt='instagram' id='imgs'/>
     <img src="/twitter-svgrepo-com (1).svg" alt='twitter' id='imgs'/>
+    <img src="/images/instagram.svg" alt='instagram' className='pic'/>
+
+    </div>
 
 </div>
 
 </div>
-
 </div>
-
 
     );
 }

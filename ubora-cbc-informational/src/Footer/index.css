@@ -1,122 +1,1105 @@
-
-
 img{
     height: 2.5vh;
     margin-top: 13px;
 }
 
-#imgs{
-    height: 2.5vh;
-    margin-bottom: 13px;
+.pic{
+    height: 50px;
+    width: 52px;
 }
-#location{
+
+
+#imgs{
+    height:50px;
+    width: 38px;
+}
+
+#p2{
+text-align: left;
+width: 670px;
+font-size: 15px;
+}
+
+#headoffice{
     display: flex;
     gap: 2%;
+    width: 100%;
 }
-#p1{
-    margin-top: 16px;
+
+#emailus{
+    display: flex;
+    gap: 2%;
+    width: 100%;
 }
+
+#callus{
+    display: flex;
+    gap: 2%;
+    width: 100%;
+} #headoffice{
+        display: flex;
+        gap: 2%;
+        width: 100%;
+    }
+
+    #emailus{
+        display: flex;
+        gap: 2%;
+        width: 100%;
+    }
+
+    #callus{
+        display: flex;
+        gap: 2%;
+        width: 100%;
+    }
+
+
+#icons{
+    font-size: 15px;
+}
+
 label{
     display: grid;
+    font-size: 15px;
 }
 input{
-    /* margin-left: -10px; */
     margin-top: 10px;
-    border-radius: 28px;
+    border-radius: 60px;
     height: 50px;
     width: 500px;
+    padding: 5px 20px;
     border: none;
     background-color: #D9D9D9;
     margin-bottom: 15px;
-    /* margin-right: 15%; */
 }
 #main{
     background-color: #DEC8C8;
     display: flex;
     gap: 20%;
-    
+    height: 500px;
 
 }
 
 
 button{
-    border-radius: 15px;
-    width: 80px;
-    height: 30px;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
     background-color: #C297DD;
     border: none;
     margin-bottom: 2%;
+    color: white;
 }
 
-#first-part{
+#get-in-touch{
 margin-top: 1%;
-margin-left: -170px;
+margin-left: 170px;
 }
 
-#second-part{
-margin-top: 7%;
+#contacts{
+margin-top: 5%;
 } 
 
-/* #contact{
-font-size: xx-large;
-} */
+.numbers{
+    margin-top: 16px;
+    font-size: 15px;
+    margin-left: 40px;
+}
 
+.email{
+    margin-top: 16px;
+    font-size: 15px;
+    margin-left: 54px;
+}
 
-@media screen and (min-width:280px) and (max-width:480px){
+.place{
+    margin-top: 16px;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.numbers{
+    margin-top: 16px;
+    font-size: 15px;
+    margin-left: 60px;
+}
+
+@media screen and (min-width:280px) and (max-width:480px) {
     img{
-        height: 5vh;
-        margin-top: 23px;
+        height: 20px;
+        width: 29px;
+        margin-top: 12px;
+        margin-left: -1px;
+    }
+
+    .pic{
+        height: 50px;
+        width: 52px;
     }
     
+    
     #imgs{
-        height: 5vh;
-        margin-bottom: 18px;
+        height:50px;
+        width: 38px;
+    }
+    
+   
+    
+    #p2{
+    text-align: left;
+    width: 98%;
+    font-size: 14px;
+    margin-left: 7px;
+    }
+
+    h2{
+        margin-left: 8px;
+        font-size: 19px;
+    }
+    
+    #headoffice{
+        display: flex;
+        gap: 2%;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    #emailus{
+        display: flex;
+        gap: 2%;
+        width: 100%;
+        margin-left: 10px;
+
+    }
+
+    #callus{
+        display: flex;
+        gap: 2%;
+        width: 100%;
+        margin-left: 10px;
+
+    }
+    
+    .numbers{
+        margin-top: 16px;
+        font-size: 15px;
+        margin-left: 50px;
+    }
+    
+    
+    .email{
+        margin-top: 16px;
+        font-size: 15px;
+        margin-left: 40px;
+    
+    }
+    
+    .place{
+        margin-top: 16px;
+        font-size: 15px;
+        margin-left: -10x;
+    }
+
+    .contact{
+        margin-left: -1px;   
+        }
+    .get{
+        text-align: center;
+    }
+    
+    #icons{
+        font-size: 15px;
+    }
+    .images{
+        width: 20px;
+        height: 30px;
+        margin-top: 11px;
+    }
+    label{
+        display: grid;
+        font-size: 15px;
+        margin-left: -10px;
+    }
+    input{
+        margin-top: 10px;
+        border-radius: 60px;
+        height: 50px;
+        width: 84%;
+        padding: 5px 20px;
+        border: none;
+        background-color: #D9D9D9;
+        margin-bottom: 15px;
+        margin-left: -15px;
+    }
+    
+    #main{
+        background-color: #DEC8C8;
+        display: block;
+        gap: 20%;
+        width: 91%;
+        margin-top: -5%;
+        height: 100%;
+        padding: 15px;
+        overflow: hidden;
+        height: 900px;
+    }
+    
+    
+    button{
+        border-radius: 20px;
+        width: 100px;
+        height: 40px;
+        background-color: #C297DD;
+        border: none;
+        margin-bottom: 2%;
+        color: white;
+        margin-left: -3px;
+    }
+    
+    #get-in-touch{
+    margin-left: 25px;
+    }
+    
+    #contacts{
+    margin-bottom: 3%;
+    margin-left: 15px;
+    } 
+    .follow{
+        text-align: center;
+        font-size: large;
+        margin-left: 30px;
+    }
+    
+    .get{
+        margin-left: -78%;
+        margin-bottom: 20px;
+    }
+
+    .foll{
+        margin-left: -90px;
+     }
+
+
+    .social{
+        margin-right: 170px;
+
+    }
+     
+}
+
+@media screen and (min-width:279px) and (max-width:285px) {
+    img{
+        height: 20px;
+        width: 29px;
+        margin-top: 12px;
+        margin-left: -1px;
+    }
+
+    .social{
+        margin-right: 120px;
+    }
+     
+
+    .foll{
+        margin-left: -58px;
+     }
+
+     .get{
+        margin-left: -65%;
+    }
+
+    
+    .pic{
+        height: 50px;
+        width: 55px;
+    }
+    
+    
+    #imgs{
+        height:50px;
+        width: 38px;
+    }
+    
+    #p2{
+    text-align: left;
+    width: 95%;
+    font-size: 14px;
+    margin-left: 7px;
+    }
+
+    h2{
+        margin-left: 8px;
+        font-size: 19px;
+    }
+    
+    #headoffice{
+        display: flex;
+        gap: 2%;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    #emailus{
+        display: flex;
+        gap: 2%;
+        width: 100%;
+        margin-left: 10px;
+
+    }
+
+    #callus{
+        display: flex;
+        gap: 2%;
+        width: 100%;
+        margin-left: 10px;
+
+    }
+    
+    .numbers{
+        margin-top: 16px;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    
+    
+    .email{
+        margin-top: 16px;
+        font-size: 15px;
+        margin-left: 15px;
+    
+    }
+    
+    .place{
+        margin-top: 16px;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .get{
+        text-align: center;
+        margin-bottom: 5px;
+
+    }
+    
+    #icons{
+        font-size: 15px;
+    }
+    .images{
+        width: 20px;
+        height: 30px;
+        margin-top: 11px;
+    }
+    label{
+        display: grid;
+        font-size: 15px;
+        margin-left: -5px;
+    }
+    input{
+        margin-top: 10px;
+        border-radius: 60px;
+        height: 40px;
+        width: 80%;
+        padding: 5px 20px;
+        border: none;
+        background-color: #D9D9D9;
+        margin-bottom: 15px;
+        margin-left: -8px;
+    }
+    #main{
+        background-color: #DEC8C8;
+        display: block;
+        gap: 20%;
+        width: 100%;
+        height: 100%;
+    }
+    
+    
+    button{
+        border-radius: 20px;
+        width: 100px;
+        height: 40px;
+        background-color: #C297DD;
+        border: none;
+        margin-bottom: 2%;
+        color: white;
+        margin-left: -4px;
+    }
+    
+    #get-in-touch{
+    margin-left: 7px;
+    }
+    
+    #contacts{
+    margin-bottom: 3%;
+    margin-left: 5px;
+    } 
+    .follow{
+        text-align: center;
+        font-size: large;
+    }
+    
+       
+}
+
+
+@media screen and (min-width:481px) and (max-width:680px) {
+    img{
+        height: 30px;
+        width: 90px;
+        margin-top: 1%;
+        margin-left: 15px;
+        
+       }
+    
+       .pic{
+        height: 50px;
+        width: 52px;
+    }
+    .social{
+        margin-right: 300px;
+    }
+    
+    
+    #imgs{
+        height:50px;
+        width: 38px;
+    }
+    
+    #p2{
+    text-align: left;
+    width: 98%;
+    font-size: 15px;
+    }
+    
+    #location{
+        display: flex;
+        gap: 2%;
+    }
+    #p1{
+        margin-top: 16px;
+        font-size: 15px;
+    }
+    
+    
+    #icons{
+        font-size: 15px;
+    }
+    .images{
+        width: 40px;
+        height: 40px;
+    }
+    label{
+        display: grid;
+        font-size: 15px;
+    }
+    input{
+        margin-top: 10px;
+        border-radius: 60px;
+        height: 50px;
+        width: 90%;
+        padding: 5px;
+        border: none;
+        background-color: #D9D9D9;
+        margin-bottom: 15px;
+        margin-left: -8px;
+    }
+    #main{
+        background-color: #DEC8C8;
+        display: block;
+        gap: 20%;
+        height: 100%;
+        padding: 15px;
+
+    }
+    
+    
+    button{
+        border-radius: 20px;
+        width: 100px;
+        height: 40px;
+        background-color: #C297DD;
+        border: none;
+        margin-bottom: 2%;
+        color: white;
+        margin-left: -8px;
+    }
+    .get{
+        margin-top: -2%;
+        text-align: center;
+        margin-left: -370px;
+    }
+    #get-in-touch{
+    margin-top: 1%;
+    margin-left: 4%;
+    }
+    .foll{
+        text-align: center;
+        margin-right: 200px;
+    }
+    #contacts{
+    margin-top: 5%;
+    } 
+    .follow{
+        text-align: center;
+    }
+    
+    
+     
+}
+
+@media screen and (min-width:681px) and (max-width:880px) {
+    img{
+        height: 30px;
+        width: 50px;
+        margin-top: 1%;
+        margin-left: 15px;
+    }
+
+    .pic{
+        height: 50px;
+        width: 52px;
+    }
+    
+    
+    #imgs{
+        height:50px;
+        width: 38px;
+    }
+
+    
+
+    .foll{
+        margin-left: -120px;
+     }
+
+
+    .social{
+        margin-left: -220px;
+    }
+     
+   
+    
+    #p2{
+    text-align: left;
+    width: 98%;
+    font-size: 20px;
+    }
+    
+    #location{
+        display: flex;
+        gap: 2%;
+    }
+    #p1{
+        margin-top: 16px;
+        font-size: 15px;
+    }
+
+    .numbers{
+        margin-top: 16px;
+        font-size: 19px;
+        margin-left: 69px;
+    }
+    
+    .email{
+        margin-top: 16px;
+        font-size: 19px;
+        margin-left: 60px;
+    
+    }
+    
+    .place{
+        margin-top: 16px;
+        font-size: 19px;
+        margin-left: 30px;
+    }
+    
+    .foll{
+        margin-bottom: 20px;
+        margin-left: -202px;
+        font-size: 30px;
+    }
+    
+    #icons{
+        font-size: 20px;
+    }
+    .images{
+        width: 40px;
+        height: 40px;
+    }
+    label{
+        display: grid;
+        font-size: 19px;
+        margin-left: 1px;
+    }
+    input{
+        margin-top: 10px;
+        border-radius: 60px;
+        height: 50px;
+        width: 90%;
+        padding: 7px 20px;
+        border: none;
+        background-color: #D9D9D9;
+        margin-bottom: 15px;
+        font-size: 17px;
+    }
+    #main{
+        background-color: #DEC8C8;
+        display: block;
+        gap: 20%;
+        height: 100%;
+        width: 95.5%;
+        height: 1165px;
+        padding: 15px;
+        overflow: hidden;
+    }
+    
+    
+    button{
+        border-radius: 20px;
+        width: 100px;
+        height: 40px;
+        background-color: #C297DD;
+        border: none;
+        margin-bottom: 12%;
+        color: white;
+        margin-left: 2px;
+    }
+    
+    #get-in-touch{
+    margin-top: 1%;
+    margin-left: 10px;
+    }
+    .get{
+        margin-top: -1%;
+        margin-left: -585px;
+    }
+    #contacts{
+    margin-top: -8%;
+    font-size: 20px;
+    margin-left: 15px;
+    } 
+    .get{
+        text-align: center;
+        font-size: xx-large;
+    }
+    .follow{
+        margin-left: 30%;
+    }
+    
+     
+}
+
+@media screen and (min-width:881px) and (max-width:1020px) {
+    img{
+        height: 30px;
+        width: 90px;
+        margin-top: 1%;
+        margin-left: 15px;
+    }
+    
+    .pic{
+        height: 50px;
+        width: 52px;
+    }
+    
+    
+    #imgs{
+        height:50px;
+        width: 38px;
+    }
+
+    .get{
+        margin-top: -1%;
+        margin-left: -80%;
+
+    }
+    #p2{
+    text-align: left;
+    width: 98%;
+    font-size: larger;
+    }
+    .get{
+        font-size: xx-large;
+        text-align: center;
     }
     #location{
         display: flex;
         gap: 2%;
     }
     #p1{
-        margin-top: 23px;
+        margin-top: 16px;
+        font-size: 15px;
+    }
+    
+    .follow{
+        margin-left: 30%;
+    }
+
+    .foll{
+        font-size: 40px;
+        margin-left: auto;
+        margin-left: -40%;
+
+    }
+    #icons{
+        font-size: 30px;
+    }
+    .images{
+        width: 40px;
+        height: 40px;
     }
     label{
         display: grid;
-
+        font-size: 29px;
     }
     input{
-        margin-left: 10px;
-        margin-top: -26px;
-        border-radius: 28px;
+        margin-top: 10px;
+        border-radius: 60px;
         height: 50px;
-        width: 350px;
+        width: 87%;
+        padding: 15px 25px;
+        border: none;
+        font-size: x-large;
+        background-color: #D9D9D9;
+        margin-bottom: 15px;
+    }
+    #main{
+        background-color: #DEC8C8;
+        display: block;
+        gap: 20%;
+        height: 100%;
+        height: 1306x;
+        padding: 35px;
+
+    }
+
+    button{
+        border-radius: 29px;
+        width: 115px;
+        height: 60px;
+        background-color: #C297DD;
+        border: none;
+        margin-bottom: 2%;
+        color: white;
+        font-size: 20px;
+    }
+    
+    #get-in-touch{
+    margin-top: 1%;
+    margin-left: 3%;
+    }
+    
+    #contacts{
+    margin-top: 5%;
+    font-size: x-large;
+    } 
+    
+    
+    .numbers{
+        margin-top: 16px;
+        font-size: 30px;
+        margin-left: 65px;
+    }
+    
+    .email{
+        margin-top: 16px;
+        font-size: 30px;
+        margin-left: 60px;
+    
+    }
+    
+    .place{
+        margin-top: 16px;
+        font-size: 30px;
+        margin-left: 15px;
+    }
+
+    .social{
+        margin-left: -43%;
+
+    }
+     
+}
+
+@media screen and (min-width:1021px) and (max-width:1024px) {
+   
+    img{
+        height: 30px;
+        width: 50px;
+        margin-top: 1%;
+        margin-left: 15px;
+    }
+    
+    .pic{
+        height: 50px;
+        width: 52px;
+    }
+    
+    
+    #imgs{
+        height:50px;
+        width: 38px;
+    }
+    .social{
+        margin-right: 250px;
+    }
+
+    .numbers{
+        margin-top: 16px;
+        font-size: 15px;
+        margin-left: 49px;
+    }
+    
+    .email{
+        margin-top: 16px;
+        font-size: 15px;
+        margin-left: 42px;
+    
+    }
+    
+    .place{
+        margin-top: 16px;
+        font-size: 15px;
+        margin-left: 18px;
+    }
+    
+    #p2{
+    text-align: left;
+    width: 90%;
+    font-size: 15px;
+    margin-left: 70px;
+    }
+    
+    #location{
+        display: flex;
+        gap: 2%;
+    }
+    #p1{
+        margin-top: 16px;
+        font-size: 15px;
+    }
+    
+    
+    #icons{
+        font-size: 15px;
+    }
+    .images{
+        width: 40px;
+        height: 40px;
+    }
+    label{
+        display: grid;
+        font-size: 15px;
+        margin-left: -16px;
+    }
+    input{
+        margin-top: 10px;
+        border-radius: 60px;
+        height: 50px;
+        width: 150%;
+        padding: 5px 20px;
         border: none;
         background-color: #D9D9D9;
         margin-bottom: 15px;
-        margin-left: 180px;
+        margin-left: -15px;
     }
     #main{
         background-color: #DEC8C8;
         display: flex;
-        flex-direction: column;
-        gap: 20%; 
+        flex-direction: row;
+        height: 600px;
+        padding: 20px 40px;
+
+    
     }
     
     
     button{
-        border-radius: 15px;
-        width: 80px;
-        height: 30px;
+        border-radius: 20px;
+        width: 100px;
+        height: 40px;
         background-color: #C297DD;
         border: none;
         margin-bottom: 2%;
+        color: white;
     }
     
-    #first-part{
+    #get-in-touch{
     margin-top: 1%;
-    margin-left: -170px;
+    margin-left: 1%;
     }
+    .get{
+        margin-top: -1%;
+        text-align: center;
+    }
+    #contacts{
+    margin-top: 3%;
+    text-align: center;
+    
+    } 
+    
+    .get{
+        margin-left: -90px;   
+    }
+    
+     .foll{
+        margin-left: 60px;
+     }
+     .follow{
+        text-align: center;
+     }
 
-  
+     h2{
+      width: 300px;  
+      margin-left: 23px;   
+     }
+    .contact{
+        width: 300px;  
+        margin-left: -20px;   
+        }
+
+     .Information{
+        margin-left: 50px;
+     }
 }
 
+@media screen and (min-width:1250px) and (max-width:1285px) {
+    img{
+        height: 30px;
+        width: 50px;
+        margin-top: 1%;
+        margin-left: 15px;
+    }
+  
+    .pic{
+        height: 50px;
+        width: 52px;
+    }
+    
+    
+    #imgs{
+        height:50px;
+        width: 38px;
+    }
 
+    .social{
+        margin-right: 455px;
+    }
+
+    .numbers{
+        margin-top: 16px;
+        font-size: 15px;
+        margin-left: 49px;
+    }
+    
+    .email{
+        margin-top: 16px;
+        font-size: 15px;
+        margin-left: 42px;
+    
+    }
+    
+    .place{
+        margin-top: 16px;
+        font-size: 15px;
+        margin-left: 18px;
+    }
+    
+    #p2{
+    text-align: left;
+    width: 90%;
+    font-size: 15px;
+    margin-left: 70px;
+    }
+    
+    #location{
+        display: flex;
+        gap: 2%;
+    }
+    #p1{
+        margin-top: 16px;
+        font-size: 15px;
+    }
+    
+    
+    #icons{
+        font-size: 15px;
+    }
+    .images{
+        width: 40px;
+        height: 40px;
+    }
+    label{
+        display: grid;
+        font-size: 15px;
+    }
+    input{
+        margin-top: 10px;
+        border-radius: 60px;
+        height: 50px;
+        width: 150%;
+        padding: 5px 20px;
+        border: none;
+        background-color: #D9D9D9;
+        margin-bottom: 15px;
+        margin-left: -15px;
+    }
+    #main{
+        background-color: #DEC8C8;
+        display: flex;
+        flex-direction: row;
+        height: 760px;
+        padding: 20px 40px;
+
+    
+    }
+    
+    
+    button{
+        border-radius: 20px;
+        width: 100px;
+        height: 40px;
+        background-color: #C297DD;
+        border: none;
+        margin-bottom: 2%;
+        color: white;
+    }
+    
+    #get-in-touch{
+    margin-top: 2%;
+    margin-left: 1%;
+    }
+    .get{
+        margin-top: -1%;
+        text-align: center;
+    }
+    #contacts{
+    margin-top: 3%;
+    text-align: center;
+    
+    } 
+    
+    .get{
+        margin-left: -85px;   
+    }
+    
+     .foll{
+        margin-left: 60px;
+     }
+     .follow{
+        text-align: center;
+     }
+
+     h2{
+      width: 300px;  
+      margin-left: 23px;   
+     }
+    .contact{
+        width: 300px;  
+        margin-left: -20px;   
+        }
+
+     .Information{
+        margin-left: 50px;
+     }
+}
