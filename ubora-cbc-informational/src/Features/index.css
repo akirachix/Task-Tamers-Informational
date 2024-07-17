@@ -1,8 +1,7 @@
 
 #features-container{
+    padding: 10px 360px;
 
-    padding: 0px 80px;
-    
     }
     
     #features-paragraph{
@@ -10,33 +9,31 @@
     text-align: center;
     width: 900px;
     margin: 0px 400px;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'old standard tt';
     
     }
     
     #features-heading{
     
-    font-size: 50px;
+    font-size: 55px;
     text-align: center;
     font-family: 'old standard tt';
     
     }
     
     #features-details{
-    
     display: flex;
-    gap: 40px;
+    gap: 170px;
     padding-top: 0px;
-    padding-left: 200px;
+    padding-left: 210px;
     font-family: 'old standard tt';
     
     }
     
     #QnA-heading{
-    
-        text-align: center;
-    font-size: 40px;
+    text-align: center;
+    font-size: 55px;
     color: #644777;
     font-family: 'old standard tt';
     
@@ -45,7 +42,7 @@
     #QnA-paragraph{
     
     width: 640px;
-    font-size: 32px;
+    font-size: 40px;
     margin-bottom: 120px;
     font-family: 'old standard tt';
     
@@ -53,8 +50,8 @@
     
     #practicals-heading{
     
-        text-align: center;
-    font-size: 40px;
+    text-align: center;
+    font-size: 55px;
     color: #644777;
     font-family: 'old standard tt';
     
@@ -63,7 +60,7 @@
     #practicals-paragraph{
     
     width: 580px;
-    font-size: 32px;
+    font-size: 40px;
     font-family: 'old standard tt';
     
     }
@@ -72,13 +69,13 @@
     
         width: 600px;
         height: 370px;
+        padding-top:70px;
         border-radius: 20px;
         
     }
 
 
     .QnA-image{
-    
         width: 700px;
         height: 250px;
         border-radius: 20px;
@@ -91,22 +88,18 @@
     @media only screen and (min-width:280px) and (max-width:359px){
               
         #features-container{
-
-            padding: 0px;
-            
+            padding: 0px 10px;
             }
             
             #features-paragraph{
-            
             font-size: 15px;
-            width: 320px;
-            margin: 0px 5px;
+            width: 290px;
+            margin: 0px 10px;
             text-align: left;
             
             }
             
             #features-heading{
-            
             font-size: 30px;
             padding: 0px 110px;
 
