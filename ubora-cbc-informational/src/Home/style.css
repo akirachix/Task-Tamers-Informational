@@ -210,6 +210,9 @@
 .modal-close-button:hover {
   background-color: purple;
 } 
+html{
+  scroll-behavior: smooth;
+} 
 
 @media (min-width: 280px) and (max-width: 360px) {
   .nav{

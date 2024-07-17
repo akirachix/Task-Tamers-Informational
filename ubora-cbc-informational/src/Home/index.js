@@ -25,11 +25,11 @@ const Navbar = () => {
     <div>
       <nav className="nav">
         <div className="logo">
-          <img src="images/ubora-cbc-logo.png" alt="Ubora Cbc Logo, Hello" />
+          <img src="/images/ubora-cbc-logo.png" alt="Ubora Cbc Logo, Hello" />
         </div>
         <ul className={`nav-menu ${isOpen ? 'open' : ''}`}>
           <li className="nav-item"><em><a href="#">Home</a></em></li>
-          <li className="nav-item"><a href="#">Features</a></li>
+          <li className="nav-item"><a href="features-page">Features</a></li>
           <li className="nav-item"><a href="#">About</a></li>
           <li className="nav-item"><a href="#">FAQ's</a></li>
           <li className="nav-item"><a href="#">Team</a></li>
@@ -57,7 +57,7 @@ const Navbar = () => {
               Learn More...
             </button>
           </div>
-          <img src="images/cbckids.png" alt="Kids" className="kidsImage" />
+          <img src="/images/cbckids.png" alt="Kids" className="kidsImage" />
         </div>
         <div className="features">
           <div className="features-content">
@@ -65,10 +65,10 @@ const Navbar = () => {
             <p className="practicals">Practicals</p>
           </div>
           <div className="image-row">
-            <img src="images/girl.png" alt="Girl" />
-            <img src="images/boy.png" alt="Boy" className="boy-image" />
-            <img src="images/cooking.png" alt="Cooking" />
-            <img src="images/planting.png" alt="Planting" />
+            <img src="/images/girl.png" alt="Girl" />
+            <img src="/images/boy.png" alt="Boy" className="boy-image" />
+            <img src="/images/cooking.png" alt="Cooking" />
+            <img src="/images/planting.png" alt="Planting" />
           </div>
         </div>
       </div>
@@ -91,6 +91,8 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
 
 
 
