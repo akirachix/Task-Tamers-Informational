@@ -4,7 +4,7 @@ const Footer = ()=>{
     return (
 
  
-<div id='main'>
+<div id='footer'>
 
 <div id='get-in-touch'>
 <h2 className='get'>Get In Touch</h2>
@@ -36,20 +36,20 @@ const Footer = ()=>{
     <div className='Information'>
 
     <div id='headoffice'>
-    <img src="/images/location-svgrepo-com.svg" alt='location' className='images'/>
+    <img src="/images/location-svgrepo-com.svg" alt='location' className='photo'/>
         <p id='icons'><b>Head Office</b></p>
         <p className="place">LandMark Plaza,Khodek Rd,Nairobi</p>
     </div>
 
     <div id='emailus'>
-    <img src="images/email-svgrepo-com (1).svg" alt='email' className='images'></img>
+    <img src="images/email-svgrepo-com (1).svg" alt='email' className='photo'></img>
     <p id='icons'><b>Email Us</b></p>
     <p className="email">uboracbc@gmail.com</p>
     </div>
 
 
     <div id='callus'>
-    <img src="images/call-receive-svgrepo-com.svg" alt='call' className='images'/>
+    <img src="images/call-receive-svgrepo-com.svg" alt='call' className='photo'/>
     <p id='icons'><b>Call Us</b></p>
     <p className="numbers">+25489289/+25428238</p>
     </div>
@@ -62,8 +62,8 @@ const Footer = ()=>{
 
     <div className="social">
 
-    <img src="/images/facebook-svgrepo-com.svg" alt='faceboook' id='imgs'/>
-    <img src="images/twitter-svgrepo-com (1).svg" alt='twitter' id='imgs'/>
+    <img src="/images/facebook-svgrepo-com.svg" alt='faceboook' id='pictures'/>
+    <img src="images/twitter-svgrepo-com (1).svg" alt='twitter' id='pictures'/>
     <img src="/images/instagram.svg" alt='instagram' className='pic'/>
 
     </div>
