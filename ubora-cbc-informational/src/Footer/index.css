@@ -1,4 +1,4 @@
-img{
+.photo{
     height: 2.5vh;
     margin-top: 13px;
 }
@@ -63,7 +63,7 @@ label{
     display: grid;
     font-size: 15px;
 }
-input{
+.input-name{
     margin-top: 10px;
     border-radius: 60px;
     height: 50px;
@@ -127,7 +127,7 @@ margin-top: 5%;
 }
 
 @media screen and (min-width:0px) and (max-width:300px) {
-    img{
+    .photo{
 
         height: 20px;
         width: 29px;
@@ -225,7 +225,7 @@ margin-top: 5%;
         font-size: 15px;
         margin-left: -10px;
     }
-    input{
+    .input-name{
         margin-top: 10px;
         border-radius: 60px;
         height: 50px;
@@ -294,7 +294,7 @@ margin-top: 5%;
 }
 
 @media screen and (min-width:301px) and (max-width:480px) {
-    img{
+    .photo{
         height: 20px;
         width: 29px;
         margin-top: 12px;
@@ -390,7 +390,7 @@ margin-top: 5%;
         font-size: 15px;
         margin-left: -10px;
     }
-    input{
+    .input-name{
         margin-top: 10px;
         border-radius: 60px;
         height: 50px;
@@ -460,7 +460,7 @@ margin-top: 5%;
 
 
 @media screen and (min-width:481px) and (max-width:680px) {
-    img{
+    .photo{
         height: 30px;
         width: 90px;
         margin-top: 1%;
@@ -511,7 +511,7 @@ margin-top: 5%;
         display: grid;
         font-size: 15px;
     }
-    input{
+    .input-name{
         margin-top: 10px;
         border-radius: 60px;
         height: 50px;
@@ -565,7 +565,7 @@ margin-top: 5%;
 }
 
 @media screen and (min-width:681px) and (max-width:880px) {
-    img{
+    .photo{
         height: 30px;
         width: 50px;
         margin-top: 1%;
@@ -643,7 +643,7 @@ margin-top: 5%;
         font-size: 19px;
         margin-left: 1px;
     }
-    input{
+    .input-name{
         margin-top: 10px;
         border-radius: 60px;
         height: 50px;
@@ -699,7 +699,7 @@ margin-top: 5%;
 }
 
 @media screen and (min-width:881px) and (max-width:1020px) {
-    img{
+    .photo{
         height: 30px;
         width: 90px;
         margin-top: 1%;
@@ -760,7 +760,7 @@ margin-top: 5%;
         font-size: 29px;
         margin-left: -1.5%;
     }
-    input{
+    .input-name{
         margin-left: -2%;
         margin-top: 10px;
         border-radius: 60px;
@@ -832,7 +832,7 @@ margin-top: 5%;
 
 @media screen and (min-width:1021px) and (max-width:1024px) {
    
-    img{
+    .photo{
         height: 30px;
         width: 50px;
         margin-top: 1%;
@@ -901,7 +901,7 @@ margin-top: 5%;
         font-size: 15px;
         margin-left: -9px;
     }
-    input{
+    .input-name{
         margin-top: 10px;
         border-radius: 60px;
         height: 50px;
@@ -974,7 +974,7 @@ margin-top: 5%;
 }
 
 @media screen and (min-width:1250px) and (max-width:1285px) {
-    img{
+    .photo{
         height: 30px;
         width: 50px;
         margin-top: 1%;
@@ -1043,7 +1043,7 @@ margin-top: 5%;
         display: grid;
         font-size: 15px;
     }
-    input{
+    .input-name{
         margin-top: 10px;
         border-radius: 60px;
         height: 50px;
