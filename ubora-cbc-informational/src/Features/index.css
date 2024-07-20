@@ -6,7 +6,7 @@
     }
     
     #features-paragraph{
-    
+   
     text-align: center;
     width: 900px;
     margin: 0px 400px;
@@ -16,8 +16,8 @@
     }
     
     #features-heading{
-    
-    font-size: 50px;
+    margin-top: 1%;
+    font-size: 80px;
     text-align: center;
     font-family: 'old standard tt';
     
@@ -35,7 +35,7 @@
     
     #QnA-heading{
     
-        text-align: center;
+    text-align: center;
     font-size: 40px;
     color: #644777;
     font-family: 'old standard tt';
@@ -99,15 +99,17 @@
             #features-paragraph{
             
             font-size: 15px;
-            width: 320px;
+            width: 300px;
             margin: 0px 5px;
             text-align: left;
+            margin-left: 6.5%;
             
             }
             
             #features-heading{
             
-            font-size: 30px;
+            font-size: 38px;
+            margin-left: 5%;
             padding: 0px 110px;
 
             
@@ -130,10 +132,11 @@
                 
                 #QnA-paragraph{
 
-                width: 320px;
+                width: 300px;
                 /* text-align: center; */
                 font-size: 15px;
                 margin: 0px;
+                margin-left: 5.5%;
                 
                 }
                 
@@ -154,8 +157,9 @@
 
                 #practicals-paragraph{
 
-                    width: 320px;
+                    width: 300px;
                     font-size: 15px;
+                    margin-left: 5.5%;
                     /* text-align: center; */
                     
                     }
@@ -164,7 +168,7 @@
                     
                         width: 300px;
                         height: 180px;
-                        padding-left: 10px;
+                        padding-left: 14.5px;
                         
                     }
 
@@ -182,9 +186,9 @@
             }
             
             #features-paragraph{
-            
-            font-size: 15px;
-            width: 320px;
+            margin-left: -5%;
+            font-size: 14.5px;
+            width: 310px;
             margin: 0px 30px;
             text-align: start;
             
@@ -192,8 +196,10 @@
             
             #features-heading{
             
-            font-size: 25px;
+        
+            font-size: 45px;
             padding: 0px 10px;
+            margin-left: 18%;
             
             }
 
@@ -206,17 +212,17 @@
                 }
 
                 #QnA-heading{
-    
-                font-size: 20px;
+                margin-left: 14%;
+                font-size: 20.5px;
                 padding: 0px 10px;
                 
                 }
                 
                 #QnA-paragraph{
 
-                width: 330px;
+                width: 310px;
                 /* text-align: center; */
-                font-size: 15px;
+                font-size: 14.5px;
                 margin: 0px;
                 
                 }
@@ -225,6 +231,7 @@
                 
                 font-size: 20px;
                 padding: 0px 10px;
+                margin-left: 14%;
                 
                 }
                
@@ -238,8 +245,8 @@
 
                 #practicals-paragraph{
 
-                    width: 330px;
-                    font-size: 15px;
+                    width: 310px;
+                    font-size: 14.5px;
                     /* text-align: center; */
                     
                     }
@@ -266,6 +273,7 @@
             #features-paragraph{
             
             font-size: 17px;
+            /* margin-left: 8%; */
             width: 350px;
             margin: 0px 30px;
             text-align: left;
@@ -275,6 +283,7 @@
             #features-heading{
             
             font-size: 40px;
+            margin-left: 15%;
             
             }
 
@@ -288,7 +297,7 @@
 
                 #QnA-heading{
     
-                font-size: 20px;
+                font-size: 19.5px;
                 
                 }
                 
@@ -303,7 +312,7 @@
                 
                 #practicals-heading{
                 
-                font-size: 20px;
+                font-size: 19.5px;
                 
                 }
                
@@ -354,6 +363,7 @@
             #features-heading{
             
             font-size: 25px;
+            margin-left: 14%;
             
             }
 
@@ -508,7 +518,7 @@
             #features-paragraph{
             
             font-size: 25px;
-            width: 720px;
+            width: 730px;
             text-align: start;
             margin: 0px 55px;
             
@@ -536,8 +546,8 @@
                 
                 #QnA-paragraph{
                 
-                /* border: solid 1px; */
-                width: 720px;
+            
+                width: 715px;
                 text-align: start;
                 font-size: 25px;
                 margin-bottom: 0px;
@@ -561,7 +571,7 @@
                 #practicals-paragraph{
                     
                     font-size: 25px;
-                    width: 720px;
+                    width: 715px;
                     text-align: start;
                     
                     }
@@ -590,6 +600,7 @@
             width: 800px;
             text-align: start;
             margin: 0px 55px;
+            margin-left: 8.4%;
             
             }
             
@@ -619,6 +630,7 @@
                 text-align: start;
                 font-size: 30px;
                 margin-bottom: 0px;
+                margin-left: 2.6%;
                 
                 }
                 
@@ -641,6 +653,7 @@
                     font-size: 30px;
                     width: 800px;
                     text-align: start;
+                    margin-left: 2.6%;
                     
                     }
                 
@@ -648,6 +661,7 @@
                     
                         width: 770px;
                         height: 400px;
+                        margin-left: 2.7%;
                         
                     }
         
@@ -664,15 +678,17 @@
             
             #features-paragraph{
             
-            font-size: 20px;
-            width: 600px;
+            font-size: 25px;
+            width: 730px;
             margin: 0px 210px;
+            margin-left: 15%;
             
             }
             
             #features-heading{
             
-            font-size: 30px;
+            font-size: 50px;
+            margin-left: 10%;
             
             }
 
@@ -685,21 +701,24 @@
 
                 #QnA-heading{
     
-                font-size: 20px;
+                font-size: 25px;
+                margin-bottom: -2%;
                 
                 }
                 
                 #QnA-paragraph{
                     
                 width: 400px;
-                font-size: 20px;
+                font-size: 26px;
                 margin-bottom: 100px;
+               
                 
                 }
                 
                 #practicals-heading{
                 
-                font-size: 20px;
+                font-size: 25px;
+             
                 
                 }
                
@@ -713,12 +732,12 @@
                 #practicals-paragraph{
 
                     width: 360px;
-                    font-size: 20px;
+                    font-size: 25px;
                     
                     }
                 
                     .practicals-image{
-                    
+                        margin-top: 6%;
                         width: 350px;
                         height: 230px;
                         
@@ -746,7 +765,8 @@
             
             #features-heading{
             
-            font-size: 40px;
+            font-size: 50px;
+            margin-left: 16%;
             
             }
 
