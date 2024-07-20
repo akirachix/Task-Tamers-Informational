@@ -1,21 +1,22 @@
+
+
+import Faq from "./Faqs";
 import Features from "./Features";
 import Teams from "./Teams";
 
-const App = () =>{
-
-return(
-
-<div>
 
 <Features/>
 <Teams/>
+const App = ()=>{
+  return(
+    <div>
+     <Features/>
+     <Faq/>
+    
 
+    </div>
+  )
 
-</div>
-
-
-)
 
 }
-
 export default App;
