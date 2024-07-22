@@ -8,13 +8,13 @@ const Footer = ()=>{
 
 <div id='get-in-touch'>
 <h2 className='get'>Get In Touch</h2>
-<label for='Your Name'>Your Name</label>
-<input name="first name" type="text" placeholder="Your Name" className="input-name"/>
+<label for='your-name'>Your Name</label>
+<input name="your-name" type="text" placeholder="Your Name" className="input-name"/>
 
-<label for="Your Email">Your Email</label>
-<input name="Your Email" type="text" placeholder="Enter Email Address" className="input-name"/>
+<label for="your-email">Your Email</label>
+<input name="your-email" type="text" placeholder="Enter Email Address" className="input-name"/>
 
-<label for="Message">Your Message</label>
+<label for="message">Message</label>
 <input name="message" type="text" placeholder="Message" className="input-name"/>
 
 <br/>
