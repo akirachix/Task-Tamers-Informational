@@ -2,14 +2,9 @@
 
 
 import './index.css';
-
 const Features = () =>{
-
 return(
-
 <div id="features-container">
-
-
 <h1 id="features-heading">Features</h1>
 
 <div  id="features-paragraph">
