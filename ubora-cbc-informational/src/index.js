@@ -1,14 +1,28 @@
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import './index.css';
+// import App from './App';
+// import reportWebVitals from './reportWebVitals';
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
+
+// reportWebVitals();
+
+
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import ReactDOM from 'react-dom/client'; // Use createRoot for React 18
+import { BrowserRouter as Router } from 'react-router-dom';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './index.css'; // Global styles (optional)
 
-ReactDOM.render(
-  <React.StrictMode>
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <Router>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </Router>
 );
-
-reportWebVitals();

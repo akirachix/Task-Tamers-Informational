@@ -1,4 +1,6 @@
+
 import React, { useState } from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import './style.css';
 
 const Navbar = () => {
@@ -22,18 +24,18 @@ const Navbar = () => {
   };
 
   return (
-    <div>
+    <div id='home'>
       <nav className="nav">
         <div className="logo">
           <img src="/images/ubora-cbc-logo.png" alt="Ubora Cbc Logo, Hello" />
         </div>
         <ul className={`nav-menu ${isOpen ? 'open' : ''}`}>
-          <li className="nav-item"><em><a href="#">Home</a></em></li>
-          <li className="nav-item"><a href="features-page">Features</a></li>
-          <li className="nav-item"><a href="#">About</a></li>
-          <li className="nav-item"><a href="#">FAQ's</a></li>
-          <li className="nav-item"><a href="#">Team</a></li>
-          <li className="nav-item"><a href="#">Contacts</a></li>
+          <li className="nav-item"><Link smooth to="/#home">Home</Link></li>
+          <li className="nav-item"><a href=" http://localhost:3001/#QnA-paragraph">Features</a></li>
+          <li className="nav-item"><a href="http://localhost:3001/">About</a></li>
+          <li className="nav-item"><a href="http://localhost:3001/">FAQ's</a></li>
+          <li className="nav-item"><a href="http://localhost:3001/">Team</a></li>
+          <li className="nav-item"><a href="http://localhost:3001/">Contacts</a></li>
           <li className="close-menu-item" onClick={closeMenu}>
             <span className="close-button">&times;</span>
           </li>
@@ -90,12 +92,8 @@ const Navbar = () => {
   );
 };
 
+
+
 export default Navbar;
 
 
-
-
-
-
-
- 
