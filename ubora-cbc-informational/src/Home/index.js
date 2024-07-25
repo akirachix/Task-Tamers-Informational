@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import './style.css';
@@ -25,13 +24,13 @@ const Navbar = () => {
             <Link smooth to="/#home" onClick={closeMenu}>Home</Link>
           </li>
           <li className="nav-item">
-            <a href="http://localhost:3001/#QnA-paragraph" onClick={closeMenu}>Features</a>
+            <a href="http://localhost:3000/#features-heading" onClick={closeMenu}>Features</a>
           </li>
           <li className="nav-item">
             <a href="http://localhost:3001/" onClick={closeMenu}>About</a>
           </li>
           <li className="nav-item">
-            <a href="http://localhost:3001/" onClick={closeMenu}>FAQ's</a>
+            <a href="http://localhost:3000/#faqs" onClick={closeMenu}>FAQ's</a>
           </li>
           <li className="nav-item">
             <a href="http://localhost:3001/" onClick={closeMenu}>Team</a>

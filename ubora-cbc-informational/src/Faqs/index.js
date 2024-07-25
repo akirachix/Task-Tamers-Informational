@@ -46,7 +46,7 @@ const Faq = () =>{
            <img src="/images/questionmark.webp" alt='questionmark' className='search-image'/>
            <div className='text-over'>
            <p className='search-par'><b>What can we help you find?</b></p>
-        <form>
+        <form id='faqs'>
           <input type='search' className='search-button'></input>
           <button className='search-submit'>Search</button>
         </form>

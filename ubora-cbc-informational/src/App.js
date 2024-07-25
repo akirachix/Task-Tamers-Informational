@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Home/index';
 import Features from './Features';
+import Faq from './Faqs';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div>
       <Navbar />
       <Features/>
+      <Faq/>
     </div>
   );
   }
