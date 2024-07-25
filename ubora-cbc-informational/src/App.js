@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Home/index';
 import Features from './Features';
 
+
 function App() {
 
   return (
@@ -13,6 +14,9 @@ function App() {
   }
 
 export default App;
+
+
+
 
 
 
