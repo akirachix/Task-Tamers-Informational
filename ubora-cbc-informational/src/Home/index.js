@@ -5,18 +5,9 @@ import './style.css';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [showModal, setShowModal] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
-  };
-
-  const openModal = () => {
-    setShowModal(true);
-  };
-
-  const closeModal = () => {
-    setShowModal(false);
   };
 
   const closeMenu = () => {
@@ -30,12 +21,24 @@ const Navbar = () => {
           <img src="/images/ubora-cbc-logo.png" alt="Ubora Cbc Logo, Hello" />
         </div>
         <ul className={`nav-menu ${isOpen ? 'open' : ''}`}>
-          <li className="nav-item"><Link smooth to="/#home">Home</Link></li>
-          <li className="nav-item"><a href=" http://localhost:3001/#QnA-paragraph">Features</a></li>
-          <li className="nav-item"><a href="http://localhost:3001/">About</a></li>
-          <li className="nav-item"><a href="http://localhost:3001/">FAQ's</a></li>
-          <li className="nav-item"><a href="http://localhost:3001/">Team</a></li>
-          <li className="nav-item"><a href="http://localhost:3001/">Contacts</a></li>
+          <li className="nav-item">
+            <Link smooth to="/#home" onClick={closeMenu}>Home</Link>
+          </li>
+          <li className="nav-item">
+            <a href="http://localhost:3001/#QnA-paragraph" onClick={closeMenu}>Features</a>
+          </li>
+          <li className="nav-item">
+            <a href="http://localhost:3001/" onClick={closeMenu}>About</a>
+          </li>
+          <li className="nav-item">
+            <a href="http://localhost:3001/" onClick={closeMenu}>FAQ's</a>
+          </li>
+          <li className="nav-item">
+            <a href="http://localhost:3001/" onClick={closeMenu}>Team</a>
+          </li>
+          <li className="nav-item">
+            <a href="http://localhost:3001/" onClick={closeMenu}>Contacts</a>
+          </li>
           <li className="close-menu-item" onClick={closeMenu}>
             <span className="close-button">&times;</span>
           </li>
@@ -55,7 +58,8 @@ const Navbar = () => {
           <div>
             <p className="ubora">Ubora CBC,</p>
             <p className="unlocking">Unlocking practical knowledge</p>
-            <button className="learn-more" onClick={openModal}>
+           
+            <button className="learn-more" onClick={() => {}}>
               Learn More...
             </button>
           </div>
@@ -75,25 +79,8 @@ const Navbar = () => {
         </div>
       </div>
 
-      {showModal && (
-        <div className="modal">
-          <div className="modal-content">
-            <span className="modal-close-button" onClick={closeModal}>
-              &times;
-            </span>
-            <h2>Ubora CBC: Unlocking Potential, Shaping Futures</h2>
-            <p>
-              Ubora CBC is a premier educational institution dedicated to providing world-class education. Our innovative curriculum, experienced faculty, and state-of-the-art facilities create an environment where students thrive and reach their full potential. Join us on a transformative journey of learning and growth.
-            </p>
-          </div>
-        </div>
-      )}
     </div>
   );
 };
 
-
-
 export default Navbar;
-
-
