@@ -1,18 +1,24 @@
+import React from 'react';
+import Navbar from './Home/index';
+import Features from './Features';
+import Faq from './Faqs';
 
-import Faq from "./Faqs";
-import Features from "./Features";
 
+function App() {
 
-const App = ()=>{
-  return(
+  return (
     <div>
-     <Features/>
-     <Faq/>
-    
-
+      <Navbar />
+      <Features/>
+      <Faq/>
     </div>
-  )
+  );
+  }
 
-
-}
 export default App;
+
+
+
+
+
+

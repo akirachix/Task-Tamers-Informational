@@ -132,8 +132,13 @@
                 
                 #QnA-paragraph{
 
+
+                width: 320px;
+               
+
                 width: 300px;
                 /* text-align: center; */
+
                 font-size: 15px;
                 margin: 0px;
                 margin-left: 5.5%;
@@ -220,9 +225,15 @@
                 
                 #QnA-paragraph{
 
+
+                width: 330px;
+              
+                font-size: 15px;
+
                 width: 310px;
                 /* text-align: center; */
                 font-size: 14.5px;
+
                 margin: 0px;
                 
                 }
@@ -304,7 +315,7 @@
                 #QnA-paragraph{
 
                 width: 330px;
-                /* text-align: center; */
+               
                 font-size: 17px;
                 margin: 0px;
                 
@@ -328,7 +339,7 @@
 
                     width: 330px;
                     font-size: 17px;
-                    /* text-align: center; */
+                 
                     
                     }
                 
@@ -385,7 +396,7 @@
                 #QnA-paragraph{
 
                 width: 450px;
-                /* margin: 0px 30px; */
+             
                 text-align: start;
                 font-size: 15px;
                 margin: 0px;
@@ -410,7 +421,7 @@
                 #practicals-paragraph{
 
                     width: 450px;
-                    /* margin: 0px 30px; */
+                 
                     font-size: 15px;
                     text-align: start;
                     
@@ -499,7 +510,7 @@
                     
                         width: 550px;
                         height: 300px;
-                        /* justify-content: center; */
+                     
                         padding-left: 10px;
                         
                     }
@@ -545,9 +556,14 @@
                 }
                 
                 #QnA-paragraph{
+
+            
+                width: 720px;
+
                 
             
                 width: 715px;
+
                 text-align: start;
                 font-size: 25px;
                 margin-bottom: 0px;

@@ -1,12 +1,11 @@
 
-
-
 import './index.css';
+
 
 const Features = () =>{
 
 return(
-
+<div className='features-page'>
 <div id="features-container">
 
 
@@ -23,7 +22,7 @@ return(
 
 <div>
 
-<img src="/images/kids.jpg" className='practicals-image'/>
+<img src="/images/kids.jpg" alt="Kids" className='practicals-image'/>
 
 <h2 id="practicals-heading">Practicals</h2>
 
@@ -45,12 +44,13 @@ return(
     providing feedback , fostering a collaborative learning environment.</p>
  </div>
 
-<img src="/images/Q&A.png" className='QnA-image'/>
+<img src="/images/Q&A.png" alt='Q&A' className='QnA-image'/>
 
 </div>
 
 </div>
 
+</div>
 </div>
 )
 
